@@ -1,0 +1,47 @@
+# Collection runs every 3 hours, NOT once at 7 AM.
+#
+# The Hindu's RSS feed holds only 60 items — about 3 hours of their output — so
+# a single morning fetch would see the night and miss the entire previous day.
+# Most stories would then fail the two-source rule because one outlet's coverage
+# was simply absent. So we accumulate through the day and the digest reads the
+# last 24 hours from the database.
+name: collect
+
+on:
+  schedule:
+    - cron: "30 */3 * * *"      # every 3 hours
+  workflow_dispatch:             # and a manual "run now" button
+
+concurrency:
+  group: digest-db               # never let two runs write the database at once
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      # Collection needs no embedding model, so skip the heavy deps entirely.
+      - run: pip install -r requirements-collect.txt
+
+      - name: Collect and extract
+        run: |
+          python -m digest.collect
+          python -m digest.extract
+
+      # The runner's disk is wiped after every job, so the accumulated articles
+      # must be persisted somewhere. Committing the SQLite file back to the repo
+      # is crude but free, durable, and gives a full history of what we saw.
+      - name: Persist the database
+        run: |
+          git config user.name  "digest-bot"
+          git config user.email "digest-bot@users.noreply.github.com"
+          git add -f data/digest.db
+          git diff --staged --quiet || git commit -m "collect: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
