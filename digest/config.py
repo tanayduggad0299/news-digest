@@ -11,15 +11,15 @@ DB_PATH = PROJECT_ROOT / "data" / "digest.db"
 FEEDS = [
     ("the_hindu", "india", "https://www.thehindu.com/news/national/feeder/default.rss"),
     ("the_hindu", "world", "https://www.thehindu.com/news/international/feeder/default.rss"),
-    ("news18", "india", "https://www.news18.com/commonfeeds/v1/eng/rss/india.xml"),
-    ("news18", "world", "https://www.news18.com/commonfeeds/v1/eng/rss/world.xml"),
+    ("times_of_india", "india", "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms"),
+    ("times_of_india", "world", "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms"),
     ("hindustan_times", "india", "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml"),
     ("hindustan_times", "world", "https://www.hindustantimes.com/feeds/rss/world-news/rssfeed.xml"),
 ]
 
 SOURCE_NAMES = {
     "the_hindu": "The Hindu",
-    "news18": "News18",
+    "times_of_india": "The Times of India",
     "hindustan_times": "Hindustan Times",
 }
 
@@ -28,8 +28,19 @@ SOURCE_NAMES = {
 #                    the 2-source eligibility rule.
 #   ndtv           — feed works, but article pages return HTTP 403 to
 #                    automated clients. A deliberate block; we respect it.
+#   news18         — worked perfectly from a home connection (5/5 extraction)
+#                    and is BLOCKED from datacentre IPs: 0/6 on a GitHub
+#                    Actions runner, 130 of 167 real articles refused with 403.
+#                    Source viability is a property of WHERE THE CODE RUNS, not
+#                    of the source alone. Measured with probe_sources.py.
 #   firstpost      — feed is mostly weeks-stale.
 #   theprint / scroll / deccanherald — feed URLs 301/404.
+#   indian_express — the FEED itself now 403s from a datacentre IP too.
+#
+# Verified reachable from a GitHub runner (probe_sources.py):
+#   the_hindu, hindustan_times, times_of_india, india_today,
+#   livemint, economic_times. The last two are business-led and would skew
+#   the digest toward markets, so Times of India takes the third slot.
 
 # The digest considers articles published within this many hours of the run.
 LOOKBACK_HOURS = 24
@@ -58,7 +69,7 @@ EXCLUDE_URL_PATTERNS = (
 # Outlets append their own name to RSS titles. Left in, this text is embedded
 # in Stage 2 and makes articles from the same outlet look more alike.
 TITLE_SUFFIXES = (
-    " | News18", " - News18", " | Hindustan Times", " - Hindustan Times",
+    " | Times of India", " - Times of India", " | Hindustan Times", " - Hindustan Times",
     " | The Hindu", " - The Hindu",
 )
 
