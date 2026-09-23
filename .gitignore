@@ -4,8 +4,9 @@ data/*.log
 __pycache__/
 *.pyc
 
-# data/digest.db is deliberately NOT ignored: the scheduled collector
-# accumulates articles into it between runs, so it is real state, not a
-# build artifact. .env stays ignored — secrets live in GitHub Secrets.
+# The database is accumulated state, kept in the GitHub Actions cache rather
+# than in git — committing a binary file eight times a day raced every
+# developer push and conflicted constantly.
+data/*.db
 data/*.log
 data/digest_preview.*

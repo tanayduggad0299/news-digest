@@ -24,6 +24,18 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      # The accumulated article database lives in the Actions cache, NOT in git.
+      # Committing it back to the repo worked, but every run raced developer
+      # pushes to main and the binary file conflicted constantly. The cache is
+      # write-once per key, so each run restores the newest snapshot and saves a
+      # fresh one under its own run id.
+      - name: Restore article database
+        uses: actions/cache/restore@v4
+        with:
+          path: data/digest.db
+          key: digestdb-${{ github.run_id }}
+          restore-keys: digestdb-
+
       - run: |
           pip install -r requirements.txt \
             --extra-index-url https://download.pytorch.org/whl/cpu
@@ -60,11 +72,9 @@ jobs:
             data/digest_preview.html
           retention-days: 14
 
-      - name: Persist the database
+      - name: Save article database
         if: always()
-        run: |
-          git config user.name  "digest-bot"
-          git config user.email "digest-bot@users.noreply.github.com"
-          git add -f data/digest.db
-          git diff --staged --quiet || git commit -m "digest: $(date -u +%Y-%m-%d)"
-          git push
+        uses: actions/cache/save@v4
+        with:
+          path: data/digest.db
+          key: digestdb-${{ github.run_id }}

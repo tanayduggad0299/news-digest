@@ -28,6 +28,18 @@ jobs:
           cache: pip
 
       # Collection needs no embedding model, so skip the heavy deps entirely.
+      # The accumulated article database lives in the Actions cache, NOT in git.
+      # Committing it back to the repo worked, but every run raced developer
+      # pushes to main and the binary file conflicted constantly. The cache is
+      # write-once per key, so each run restores the newest snapshot and saves a
+      # fresh one under its own run id.
+      - name: Restore article database
+        uses: actions/cache/restore@v4
+        with:
+          path: data/digest.db
+          key: digestdb-${{ github.run_id }}
+          restore-keys: digestdb-
+
       - run: pip install -r requirements-collect.txt
 
       - name: Collect and extract
@@ -38,10 +50,9 @@ jobs:
       # The runner's disk is wiped after every job, so the accumulated articles
       # must be persisted somewhere. Committing the SQLite file back to the repo
       # is crude but free, durable, and gives a full history of what we saw.
-      - name: Persist the database
-        run: |
-          git config user.name  "digest-bot"
-          git config user.email "digest-bot@users.noreply.github.com"
-          git add -f data/digest.db
-          git diff --staged --quiet || git commit -m "collect: $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+      - name: Save article database
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/digest.db
+          key: digestdb-${{ github.run_id }}
