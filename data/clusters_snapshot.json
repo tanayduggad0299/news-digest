@@ -1,0 +1,1108 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 12,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.8869,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "Congress questions timing of candidate’s arrest ahead of Nandigram bypoll",
+        "url": "https://www.thehindu.com/news/national/west-bengal/congress-questions-timing-of-candidates-arrest-ahead-of-nandigram-bypoll/article71484435.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Nandigram by-poll: Cong candidate sent to judicial custody till Oct 3; can’t campaign",
+        "url": "https://www.hindustantimes.com/india-news/nandigram-by-poll-cong-candidate-sent-to-judicial-custody-till-oct-3-can-t-campaign-101789822028854.html"
+      },
+      {
+        "source": "news18",
+        "title": "Nandigram Bypoll: Congress Candidate Milan Pradhan Sent To Judicial Custody Till Oct 3",
+        "url": "https://www.news18.com/india/nandigram-bypoll-congress-candidate-milan-pradhan-sent-to-judicial-custody-till-oct-3-10341366.html"
+      },
+      {
+        "source": "the_hindu",
+        "title": "Arrest of Nandigram Congress candidate lawful step: West Bengal Police",
+        "url": "https://www.thehindu.com/news/national/west-bengal/arrest-of-nandigram-congress-candidate-lawful-step-west-bengal-police/article71483957.ece"
+      },
+      {
+        "source": "the_hindu",
+        "title": "Nandigram bypoll: Congress candidate Milan Pradhan arrested hours after getting Mamata’s support",
+        "url": "https://www.thehindu.com/news/national/west-bengal/nandigram-bypoll-row-congress-candidate-milan-pradhan-arrested/article71480889.ece"
+      },
+      {
+        "source": "the_hindu",
+        "title": "Nandigram bypoll: Congress candidate facing 19-year-old murder, rioting cases to be produced in court",
+        "url": "https://www.thehindu.com/news/national/west-bengal/nandigram-bypoll-congress-candidate-facing-19-year-old-murder-rioting-cases-to-be-produced-in-court/article71484133.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "‘But why now?’ Mamata questions arrest of Congress’ Nandigram bypoll candidate, calls it ‘BJP's vendetta politics’",
+        "url": "https://www.hindustantimes.com/india-news/but-why-now-mamata-banerjee-tmc-questions-congress-nandigram-bypoll-candidates-arrest-101789747032193.html"
+      },
+      {
+        "source": "news18",
+        "title": "'Why Now'? Mamata Banerjee Alleges 'Vendetta Politics' Over Arrest Of Congress Nandigram Candidate",
+        "url": "https://www.news18.com/india/why-now-mamata-banerjee-alleges-politics-of-vendetta-over-arrest-of-congress-nandigram-candidate-ws-l-10339691.html"
+      },
+      {
+        "source": "news18",
+        "title": "Another Twist In Nandigram Bypoll: Congress Candidate Arrested After Mamata's Nominee Backs Out",
+        "url": "https://www.news18.com/india/another-twist-in-nandigram-bypoll-congress-candidate-arrested-after-mamatas-nominee-withdraws-10339341.html"
+      },
+      {
+        "source": "news18",
+        "title": "Who Is Milan Pradhan? Congress' Nandigram Pick Arrested Hours After Mamata's Support",
+        "url": "https://www.news18.com/india/who-is-milan-pradhan-congress-nandigram-pick-arrested-hours-after-mamatas-support-ws-l-10339503.html"
+      },
+      {
+        "source": "news18",
+        "title": "After Nandigram Candidate, West Bengal Congress General Secretary Arrested In Old Case",
+        "url": "https://www.news18.com/india/after-nandigram-candidate-west-bengal-congress-general-secretary-arrested-in-old-case-ws-l-10339542.html"
+      },
+      {
+        "source": "news18",
+        "title": "Triple Trouble For Mamata: TMC Symbol Frozen, Nandigram Candidate Withdraws, Congress Pick Arrested",
+        "url": "https://www.news18.com/india/triple-trouble-for-mamata-tmc-symbol-frozen-nandigram-candidate-withdraws-congress-pick-arrested-10339545.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 9,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.8748,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "'Big Fat Zero To Rahul Gandhi': BJP Takes Swipe At Congress After ABVP's Victory In DUSU Election",
+        "url": "https://www.news18.com/india/big-fat-zero-to-rahul-gandhi-bjp-takes-swipe-at-congress-after-abvps-victory-in-dusu-election-10341381.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "ABVP sweeps, NSUI upsets, Independent grabs key seat: Key takeaways from Delhi University polls",
+        "url": "https://www.hindustantimes.com/india-news/abvp-win-upset-for-nsui-dusu-elections-2026-result-president-yash-dabas-nsui-congress-rahul-gandhi-101789815276349.html"
+      },
+      {
+        "source": "news18",
+        "title": "Meet Riya Chhawdi, ABVP's New DUSU Secretary: From Farmer's Family To Basketball, Student Politics",
+        "url": "https://www.news18.com/india/meet-riya-chhawdi-abvps-new-dusu-secretary-from-farmers-family-to-basketball-student-politics-ws-l-10341304.html"
+      },
+      {
+        "source": "the_hindu",
+        "title": "ABVP wins 3 DUSU posts; independent candidate Deepanshu Shokeen gets vice-president’s position",
+        "url": "https://www.thehindu.com/news/cities/Delhi/delhi-university-students-union-election-result-counting-on-september-19-2026/article71483753.ece"
+      },
+      {
+        "source": "news18",
+        "title": "DUSU Election Results 2026 LIVE: Amit Shah Congratulates ABVP After Victory, Says Win Reflects ‘Nation First’ Ideology",
+        "url": "https://www.news18.com/india/dusu-election-results-2026-live-updates-delhi-university-students-union-yash-dabas-abvp-vijay-shankar-nsui-liveblog-ws-kl-10340194.html"
+      },
+      {
+        "source": "news18",
+        "title": "DUSU Results 2026: ABVP Wins 3 Posts, Retains President’s Seat; Independent Takes VP",
+        "url": "https://www.news18.com/india/dusu-results-2026-abvp-wins-3-posts-retains-presidents-seat-independent-takes-vp-10341200.html"
+      },
+      {
+        "source": "news18",
+        "title": "ABVP Conquers DUSU Polls: Have Rahul Gandhi's 'Chhatron Ki Goonj', CJP Youth Campaigns Failed The Campus Test?",
+        "url": "https://www.news18.com/india/abvp-conquers-dusu-polls-have-rahul-gandhis-chhatron-ki-goonj-cjp-youth-campaigns-failed-the-campus-test-ws-bkl-10341217.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Who is Deepanshu Shokeen? Independent candidate wins DUSU Vice President contest",
+        "url": "https://www.hindustantimes.com/india-news/who-is-deepanshu-shokeen-independent-dusu-vice-president-election-results-victory-delhi-university-101789804879389.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "DUSU 2026 election results LIVE: ABVP sweeps DUSU polls, secures 3 posts, Independent Deepanshu Shokeen wins VP seat",
+        "url": "https://www.hindustantimes.com/india-news/dusu-2026-election-results-live-updates-abvp-nsui-aisa-yash-dabas-ishu-maurya-vijay-shankar-meena-vote-counting-winner-101789782171387.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 9,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.8965,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "U.S. House advances Russia sanctions Bill that seeks 100% tariffs on India, others; set for final vote",
+        "url": "https://www.thehindu.com/news/international/russia-sanctions-bill-advances-in-us-house-india-tariffs-final-vote/article71470872.ece"
+      },
+      {
+        "source": "the_hindu",
+        "title": "U.S. House passes Russia sanctions Bill seeking to impose up to 100% tariffs on India, others",
+        "url": "https://www.thehindu.com/news/international/us-house-passes-russia-sanctions-bill-india-tariffs/article71474350.ece"
+      },
+      {
+        "source": "the_hindu",
+        "title": "Trump signs Russia sanctions bill into law",
+        "url": "https://www.thehindu.com/news/international/trump-signs-russia-sanctions-bill-into-law/article71482578.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "HT Morning News Brief Sept 19: India faces 100% tariff threat under US Act, Meghna Gulzar's film opens to slow response",
+        "url": "https://www.hindustantimes.com/india-news/india-us-tariffs-russia-meghna-gulzar-daayra-dengue-vaccine-neeraj-chopra-latest-news-n-chandrasekaran-tata-sons-101789786895051.html"
+      },
+      {
+        "source": "news18",
+        "title": "'100% Tariff Is Not Automatic': What Trump’s New Russia Sanctions Law Actually Means For India",
+        "url": "https://www.news18.com/explainers/100-tariff-is-not-automatic-what-trumps-new-russia-sanctions-law-actually-means-for-india-ws-lt-10340162.html"
+      },
+      {
+        "source": "news18",
+        "title": "Trump Signs Bill Allowing 100% Tariffs On India, China Over Russian Oil Ahead Of Xi Meet",
+        "url": "https://www.news18.com/world/trump-signs-bill-allowing-100-tariffs-on-india-china-over-russian-oil-ahead-of-xi-meeting-ws-l-10340114.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Trump signs Russia sanctions bill into law, granted power to impose 100% tariffs on India, China",
+        "url": "https://www.hindustantimes.com/world-news/donald-trump-signs-russia-and-iran-sanctions-bill-into-law-white-house-announces-101789768166998.html"
+      },
+      {
+        "source": "news18",
+        "title": "Trump To Sign Russia Sanctions Bill Today, Enabling 100% Tariffs On India, US Official Says",
+        "url": "https://www.news18.com/world/trump-to-sign-russia-sanctions-bill-today-enabling-100-tariffs-on-india-us-official-says-ws-l-10339934.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Trump to sign Russia sanctions bill today that threatens 100% tariffs on India: Report",
+        "url": "https://www.hindustantimes.com/india-news/trump-to-sign-russia-sanctions-bill-today-that-threatens-100-per-cent-tariffs-on-india-101789751001313.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 7,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.8847,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "'A Dream Come True': Trump Hails Greenland Deal, Hints At Increasing Military Presence In Region",
+        "url": "https://www.news18.com/world/a-dream-come-true-trump-hails-greenland-deal-hints-at-increasing-military-presence-in-region-10341166.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Trump claims 'permanent control' over Greenland security: What new US-Denmark deal entails",
+        "url": "https://www.hindustantimes.com/world-news/trump-claims-permanent-control-over-greenland-security-what-new-us-denmark-deal-entails-101789796264962.html"
+      },
+      {
+        "source": "the_hindu",
+        "title": "What does the new U.S.-Denmark deal over Greenland entail, after Trump’s takeover threats?",
+        "url": "https://www.thehindu.com/news/international/what-is-the-us-denmark-deal-over-greenland-after-trump-takeover-threats/article71483549.ece"
+      },
+      {
+        "source": "the_hindu",
+        "title": "U.S. and Denmark reach deal on Greenland: Trump",
+        "url": "https://www.thehindu.com/news/international/us-and-denmark-reach-deal-on-greenland-trump/article71482588.ece"
+      },
+      {
+        "source": "news18",
+        "title": "Denmark PM Says Greenland Security Deal With US 'Good For NATO And Europe'",
+        "url": "https://www.news18.com/world/denmark-pm-says-greenland-security-deal-with-us-good-for-nato-and-europe-ws-l-10340166.html"
+      },
+      {
+        "source": "news18",
+        "title": "Trump Announces ‘Infinite Life’ Greenland Deal: US Claims Permanent Security Control Over Arctic Island",
+        "url": "https://www.news18.com/world/trump-announces-infinite-life-greenland-deal-us-claims-permanent-security-control-over-arctic-island-ws-lt-10340147.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Trump announces deal with Denmark giving US 'permanent control over security' in Greenland",
+        "url": "https://www.hindustantimes.com/world-news/trump-greenland-announces-deal-with-denmark-us-gets-permanent-control-over-security-101789766939686.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 6,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.87,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "FIR Filed After IIT Bombay Student Suicide; ChatGPT Exam Row Sparks Campus Protests",
+        "url": "https://www.news18.com/india/iit-bombay-faces-fir-after-students-death-chatgpt-exam-row-sparks-campus-protests-10341159.html"
+      },
+      {
+        "source": "news18",
+        "title": "Caught Using ChatGPT In Exam, Body Found, Campus Protests: What We Know About IIT Bombay Suicide Case",
+        "url": "https://www.news18.com/india/iit-bombay-suicide-case-student-caught-using-chatgpt-in-exam-found-dead-powai-campus-protest-10341224.html"
+      },
+      {
+        "source": "the_hindu",
+        "title": "IIT Bombay student found dead in hostel; institute says had been caught using mobile phone during exam",
+        "url": "https://www.thehindu.com/news/national/maharashtra/iit-bombay-student-found-dead-in-hostel-institute-says-had-been-caught-using-mobile-phone-during-exam/article71483750.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "'No action initiated': IIT Bombay refutes claims on student's death after ChatGPT row",
+        "url": "https://www.hindustantimes.com/india-news/no-action-initiated-iit-bombay-refutes-claims-on-students-death-after-chatgpt-row-101789801576073.html"
+      },
+      {
+        "source": "news18",
+        "title": "IIT Bombay Student Kills Self On Campus After Professor Catches Him Using ChatGPT During Exam",
+        "url": "https://www.news18.com/india/iit-bombay-student-suicide-second-year-btech-student-protest-ws-l-10340192.html"
+      },
+      {
+        "source": "news18",
+        "title": "1-Year Suspension Over ChatGPT Use? What IIT Bombay Said After Student’s Suicide",
+        "url": "https://www.news18.com/india/1-year-suspension-over-chatgpt-use-what-iit-bombay-said-after-students-suicide-ws-kl-10340383.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "size": 5,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.9051,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "Trump extends $100,000 H-1B fee for another year: What it means for Indian professionals",
+        "url": "https://www.hindustantimes.com/india-news/trump-extends-100-000-h-1b-fee-for-another-year-september-2027-what-it-means-for-indian-professionals-101789809925493.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Trump extends $100,000 H-1B fee for another year despite ongoing legal battle",
+        "url": "https://www.hindustantimes.com/world-news/trump-admin-extends-100k-h-1b-visa-fee-by-one-year-days-before-it-was-set-to-expire-101789790194148.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Trump renews USD 1,00,000 fee on H-1B visas, tightens scrutiny",
+        "url": "https://www.hindustantimes.com/world-news/us-news/trump-renews-usd-1-00-000-fee-on-h-1b-visas-tightens-scrutiny-101789788230444.html"
+      },
+      {
+        "source": "the_hindu",
+        "title": "Trump extends push for $100,000 H-1B visas by another year",
+        "url": "https://www.thehindu.com/news/international/trump-extends-push-for-100000-h-1b-visas-by-another-year/article71483493.ece"
+      },
+      {
+        "source": "news18",
+        "title": "Trump Extends $100,000 H-1B Visa Fee For Another Year - What This Means For Indians",
+        "url": "https://www.news18.com/world/trumps-h-1b-double-blow-100000-fee-extended-employer-scrutiny-tightened-what-this-means-for-indians-10340196.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "size": 5,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.87,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "Trump bans media outlets CNN, MS NOW, Politico from White House",
+        "url": "https://www.thehindu.com/news/international/trump-bans-media-outlets-cnn-ms-now-politico-from-white-house/article71482414.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Did Trump staff remove CNN, MS NOW reporters from White House after POTUS' ban? Truth behind viral video",
+        "url": "https://www.hindustantimes.com/world-news/us-news/did-trump-staff-remove-cnn-ms-now-reporters-from-white-house-after-potus-ban-truth-behind-viral-video-101789783695238.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "White House correspondents body slams Trump's ban on CNN, MS NOW and Politico",
+        "url": "https://www.hindustantimes.com/world-news/white-house-correspondents-body-slams-trumps-ban-on-cnn-ms-now-and-politico-101789780538956.html"
+      },
+      {
+        "source": "news18",
+        "title": "'Fake News': Trump Bars CNN, MS NOW, Politico From White House, Warns More Bans Coming",
+        "url": "https://www.news18.com/world/trump-bars-cnn-ms-now-politico-from-white-house-warns-more-bans-coming-ws-l-10339998.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Why Trump is banning CNN, Politico and MS Now from the White House; What we know so far",
+        "url": "https://www.hindustantimes.com/world-news/us-news/why-trump-is-banning-cnn-politico-and-ms-now-from-the-white-house-what-we-know-so-far-101789759124553.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "size": 4,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.8973,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "Mamata’s Rejinagar bypoll candidate announces withdrawal from contest, retracts later",
+        "url": "https://www.thehindu.com/news/national/west-bengal/mamatas-rejinagar-bypoll-candidate-rabiul-alam-chowdhury/article71484466.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Two withdrawals, one U-turn: TMC chaos ahead of Bengal bypolls",
+        "url": "https://www.hindustantimes.com/india-news/two-withdrawals-one-u-turn-tmc-chaos-ahead-of-bengal-bypolls-101789811906353.html"
+      },
+      {
+        "source": "news18",
+        "title": "'Will Go To People With New Symbol': TMC's Rejinagar Pick Makes U-Turn After Withdrawing Candidature",
+        "url": "https://www.news18.com/india/rabiul-alam-chowdhury-withdraws-rejinagar-bypoll-west-bengal-mamata-tmc-10340488.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "TMC's Rejinagar candidate decides to withdraw from bypoll, then backtracks",
+        "url": "https://www.hindustantimes.com/india-news/after-nandigram-tmcs-rejinagar-candidate-rabiul-chowdhury-withdraws-from-bypoll-in-fresh-setback-for-mamata-banerjee-101789799469042.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 8,
+    "size": 4,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.8936,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "U.S. troop deaths during Iran war exceed Pentagon count by at least four: report",
+        "url": "https://www.thehindu.com/news/international/us-troop-deaths-during-iran-war-exceed-pentagon-count-by-at-least-four-report/article71482590.ece"
+      },
+      {
+        "source": "news18",
+        "title": "‘Complete Lie’: Pete Hegseth Hits Back At Report Claiming Higher US Troop Death Toll In Iran War",
+        "url": "https://www.news18.com/world/complete-lie-pete-hegseth-hits-back-at-report-claiming-higher-us-troop-death-toll-in-iran-war-ws-l-10340237.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Is Pentagon hiding actual count of US troops killed in Iran war? Pete Hegseth calls WaPo report ‘a complete lie’",
+        "url": "https://www.hindustantimes.com/world-news/us-news/is-pentagon-hiding-actual-count-of-us-troops-killed-in-iran-war-pete-hegseth-calls-wapo-report-a-complete-lie-101789771139503.html"
+      },
+      {
+        "source": "news18",
+        "title": "Pentagon Hiding True Scale Of US Deaths In Iran War, Toll Higher Than Official Count: Report",
+        "url": "https://www.news18.com/world/pentagon-hiding-true-scale-of-us-deaths-in-iran-war-toll-higher-than-official-count-report-ws-l-10339988.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 10,
+    "size": 3,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "cohesion": 0.9502,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "1965 Indo-Pak war hero Flight Lieutenant A.T. Cooke dies, IAF pays tribute",
+        "url": "https://www.thehindu.com/news/national/1965-indo-pak-war-hero-flight-lieutenant-at-cooke-dies-iaf-pays-tribute/article71484325.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Vir Chakra awardee Alfred Tyrone Cooke, who took on 4 Pakistani jets, dies: Revisiting his 1965 dogfight heroics",
+        "url": "https://www.hindustantimes.com/india-news/when-flight-lt-alfred-tyrone-cooke-took-on-4-pak-jets-a-look-back-at-kalaikunda-dogfight-of-1965-101789804641359.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "1965 war hero Alfred Tyrone Cooke dies, IAF pays tribute",
+        "url": "https://www.hindustantimes.com/india-news/1965-war-hero-alfred-tyrone-cooke-dies-iaf-pays-tribute-vir-chakra-kalaikunda-101789802490683.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 11,
+    "size": 3,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.9148,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "31 killed, mosque reduced to rubble: Inside Pakistan’s deadly Kohat attack",
+        "url": "https://www.hindustantimes.com/world-news/31-killed-mosque-reduced-to-rubble-inside-pakistan-s-deadly-kohat-attack-101789812350266.html"
+      },
+      {
+        "source": "the_hindu",
+        "title": "31 dead in attack at police headquarters in Pakistan",
+        "url": "https://www.thehindu.com/news/international/many-dead-in-attack-at-police-headquarters-in-pakistan/article71483705.ece"
+      },
+      {
+        "source": "news18",
+        "title": "Death Toll From Attack At Pakistan Police Headquarters Rises To 31, Including 16 Police Personnel",
+        "url": "https://www.news18.com/world/death-toll-from-attack-at-pakistan-police-headquarters-rises-to-31-including-16-police-personnel-ws-kl-10340288.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 12,
+    "size": 3,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9514,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "Mamata Banerjee moves Supreme Court against ECI freeze on TMC symbol",
+        "url": "https://www.hindustantimes.com/india-news/mamata-banerjee-moves-supreme-court-against-eci-freeze-on-tmc-symbol-101789794124268.html"
+      },
+      {
+        "source": "news18",
+        "title": "Mamata Banerjee Moves Supreme Court Against EC’s Order To Freeze TMC Name, Symbol",
+        "url": "https://www.news18.com/india/mamata-banerjee-moves-supreme-court-against-ecs-order-to-freeze-tmc-name-symbol-ws-l-10339783.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Mamata moves Supreme Court against EC order freezing TMC name, symbol",
+        "url": "https://www.hindustantimes.com/india-news/mamata-move-supreme-court-against-ec-order-freezing-tmc-name-symbol-101789749683047.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 13,
+    "size": 3,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9329,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "How AI ‘almost started a war’ between US and China with false intel: Report",
+        "url": "https://www.hindustantimes.com/world-news/how-ai-almost-started-a-war-between-us-and-china-with-false-intel-report-nuclear-components-iran-war-west-asis-101789781790112.html"
+      },
+      {
+        "source": "news18",
+        "title": "'Almost Started A War': US Nearly Intercepted Chinese Ship After Receiving Flawed AI Intel",
+        "url": "https://www.news18.com/world/almost-started-a-war-us-nearly-intercepted-chinese-ship-after-receiving-flawed-ai-intel-ws-l-10340136.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "US military AI blunder: False intelligence on Chinese ship ‘almost started a war,’ report claims",
+        "url": "https://www.hindustantimes.com/world-news/us-news/us-military-ai-blunder-false-intelligence-on-chinese-ship-almost-started-a-war-report-claims-101789760152030.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 14,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "cohesion": 0.919,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "NIA files charge sheet against nine accused in Vijayawada radicalisation case",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/nia-files-charge-sheet-against-nine-accused-in-vijayawada-radicalisation-case/article71481938.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "NIA files chargesheet against 9 ISIS members, supporters for radicalising youths online",
+        "url": "https://www.hindustantimes.com/india-news/nia-files-chargesheet-against-9-isis-members-supporters-for-radicalising-youths-online-101789748601646.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 15,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9456,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "'Zero Per Cent Chance': Nvidia's Jensen Huang Dismisses Fears That AI Will End World By 2030",
+        "url": "https://www.news18.com/world/zero-per-cent-chance-nvidias-jensen-huang-dismisses-fears-that-ai-will-end-world-by-2030-ws-lrt-10341339.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "‘0 per cent chance’: What Nvidia CEO has to say on ‘extinction-level’ threat from AI",
+        "url": "https://www.hindustantimes.com/world-news/0-per-cent-chance-what-nvidia-ceo-jensen-huang-has-to-say-on-extinction-level-threat-from-ai-101789793082039.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 16,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "cohesion": 0.9522,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "Delhi International Airport to reopen third runway for operations from September 20",
+        "url": "https://www.thehindu.com/news/cities/Delhi/delhi-international-airport-to-reopen-third-runway-for-operations-from-september-20/article71484167.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Delhi airport’s third runway to reopen on September 20 after 7 months",
+        "url": "https://www.hindustantimes.com/india-news/delhi-airport-s-third-runway-to-reopen-on-september-20-after-7-months-101789804924411.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 17,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.8914,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "From International Tennis Player To Student Leader: Who Is Yash Dabas, The New DUSU President?",
+        "url": "https://www.news18.com/india/from-international-tennis-player-to-student-leader-who-is-yash-dabas-the-new-dusu-president-10341303.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Yash Dabas vs Vijay Meena vs Ananya Raturi: Meet the faces of DUSU presidency race",
+        "url": "https://www.hindustantimes.com/india-news/yash-dabas-vijay-meena-ananya-raturi-who-are-racing-for-dusu-elections-president-abvp-nsui-results-counting-101789792076091.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 18,
+    "size": 2,
+    "sources": [
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.8813,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "Tulu as additional official language of Dakshina Kannada and Udupi districts in Karnataka | Explained",
+        "url": "https://www.thehindu.com/news/national/karnataka/tulu-as-additional-official-language-of-dakshina-kannada-and-udupi-districts-in-karnataka-explained/article71484444.ece"
+      },
+      {
+        "source": "news18",
+        "title": "Tulu Status To TTD Land: DK Shivakumar Launches Massive Cultural Pitch In BJP’s Coastal Fortress",
+        "url": "https://www.news18.com/politics/tulu-status-to-ttd-land-dk-shivakumar-launches-massive-cultural-pitch-in-bjps-coastal-fortress-ws-lt-10340010.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 19,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "cohesion": 0.8452,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "Karnataka CM D.K. Shivakumar promises to stand by farmers on Kasturirangan report on Western Ghats",
+        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-cm-dk-shivakumar-promises-to-stand-by-farmers-on-kasturirangan-report-on-western-ghats-directs-forest-department-not-to-issue-notices-to-traditional-cultivators-over-encroachments/article71484350.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "K’taka to decide on physical survey of Kasturirangan report areas after hearing public concerns: CM",
+        "url": "https://www.hindustantimes.com/india-news/ktaka-to-decide-on-physical-survey-of-kasturirangan-report-areas-after-hearing-public-concerns-cm-101789788594459.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 20,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "cohesion": 0.9529,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "Supreme Court acquits public servant in corruption case, cites 'impatience' of CBI in probe",
+        "url": "https://www.thehindu.com/news/national/supreme-court-acquits-public-servant-in-corruption-case-cites-impatience-of-cbi-in-probe/article71484287.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "SC acquits public servant in corruption case, cites 'impatience' of CBI in probe",
+        "url": "https://www.hindustantimes.com/india-news/sc-acquits-public-servant-in-corruption-case-cites-impatience-of-cbi-in-probe-101789808423930.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 22,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9009,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "Video: BJP's Ravneet Bittu waves liquor bottle, eggs at Punjab CM Mann's convoy, detained",
+        "url": "https://www.hindustantimes.com/india-news/bjps-ravneet-singh-bittu-detained-after-waving-liquor-bottle-eggs-at-punjab-cm-bhagwant-manns-convoy-ludhiana-101789810068463.html"
+      },
+      {
+        "source": "news18",
+        "title": "BJP's Ravneet Bittu Detained In Ludhiana Over Alleged Attempt To Throw Eggs, Tomatoes At Punjab CM's Convoy",
+        "url": "https://www.news18.com/india/ravneet-bittu-detained-punjab-ludhiana-bhagwant-mann-convoy-eggs-tomatoes-batala-convoy-attack-claims-10340851.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 24,
+    "size": 2,
+    "sources": [
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.858,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "‘Jhooth Ki Goonj’ posters surface in Indore ahead of Rahul Gandhi’s student event",
+        "url": "https://www.thehindu.com/news/national/madhya-pradesh/jhooth-ki-goonj-posters-surface-in-indore-ahead-of-rahul-gandhis-student-event/article71484138.ece"
+      },
+      {
+        "source": "news18",
+        "title": "‘Echo Of Lies’ Vs ‘Chhatron Ki Goonj’: Rahul Gandhi’s Indore Visit Triggers Poster War",
+        "url": "https://www.news18.com/india/echo-of-lies-vs-chhatron-ki-goonj-rahul-gandhis-indore-visit-triggers-poster-war-ws-l-10340279.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 25,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9183,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "‘Rained Bricks On Boy’: UK-Returned Bengaluru Man Arrested For Kidnapping, Killing Former Neighbour’s Son",
+        "url": "https://www.news18.com/india/rained-bricks-on-boy-uk-returned-bengaluru-man-arrested-for-kidnapping-killing-former-neighbours-son-ws-kl-10340868.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "UK-returned graduate held in ‘ ₹1 crore ransom plot’ after boy's body found in SUV boot in Bengaluru",
+        "url": "https://www.hindustantimes.com/india-news/bengaluru-uk-returned-mtech-graduate-held-after-boy-s-body-found-in-suv-boot-101789800063214.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 26,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "cohesion": 0.872,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "Court grants one-day Excise custody of Reporter TV MD Anto Augustine in Abkari case",
+        "url": "https://www.thehindu.com/news/national/kerala/court-grants-one-day-excise-custody-of-reporter-tv-md-anto-augustine-in-abkari-case/article71483924.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "News channel executive denied bail in excise case in Kerala",
+        "url": "https://www.hindustantimes.com/india-news/news-channel-executive-denied-bail-in-excise-case-in-kerala-101789760035088.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 27,
+    "size": 2,
+    "sources": [
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.869,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "California Governor signs order to explore AI 'kill switch'",
+        "url": "https://www.thehindu.com/news/international/california-governor-signs-order-to-explore-ai-kill-switch/article71483530.ece"
+      },
+      {
+        "source": "news18",
+        "title": "Pulling The Plug On AI: Why California Governor Gavin Newsom Wants Mandatory 'Kill Switch' For Frontier Models",
+        "url": "https://www.news18.com/world/pulling-the-plug-on-ai-why-california-governor-gavin-newsom-wants-mandatory-kill-switch-for-frontier-models-ws-blt-10339876.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 32,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9008,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "'Carbon emission blame wrongly placed': PM Modi defends India, other developing nations",
+        "url": "https://www.hindustantimes.com/india-news/carbon-emission-blame-wrongly-placed-pm-modi-defends-india-other-developing-nations-101789797883535.html"
+      },
+      {
+        "source": "news18",
+        "title": "‘India’s Per Capita Carbon Emissions Less Than Half Global Average’: PM Modi On Climate Responsibility",
+        "url": "https://www.news18.com/india/indias-per-capita-carbon-emissions-less-than-half-global-average-pm-modi-on-climate-responsibility-ws-l-10340420.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 33,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.8836,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "‘Footballer’, ‘envelope’, new names: Separate identities for TMC camps",
+        "url": "https://www.hindustantimes.com/india-news/footballer-envelope-new-names-separate-identities-for-tmc-camps-symbols-101789785826263.html"
+      },
+      {
+        "source": "news18",
+        "title": "Suvendu Adhikari's First Big Test: Why Nandigram Bypoll Has Become Prestige Battle For Bengal CM",
+        "url": "https://www.news18.com/india/suvendu-adhikaris-first-big-test-why-nandigram-bypoll-has-become-prestige-battle-for-bengal-cm-10339476.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 36,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9008,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "If Two Employees Do The Same Work, Should They Get Equal Pay? Supreme Court Says 'Not Always'",
+        "url": "https://www.news18.com/india/if-two-employees-do-the-same-work-should-they-get-equal-pay-supreme-court-says-not-always-ws-l-10340375.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Equal work alone not enough to claim equal pay: Supreme Court",
+        "url": "https://www.hindustantimes.com/india-news/equal-work-alone-not-enough-to-claim-equal-pay-supreme-court-101789794601937.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 37,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.8502,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "FCRA amendments not against any community, Centre tells House panel",
+        "url": "https://www.hindustantimes.com/india-news/fcra-amendments-bill-india-christians-centre-parliamentary-panel-us-101789780271516.html"
+      },
+      {
+        "source": "news18",
+        "title": "FCRA JPC Meet: Opposition Raises Minority Concerns, Ruling MPs Seek Tighter Checks On Foreign Funds",
+        "url": "https://www.news18.com/india/fcra-jpc-meet-opposition-raises-minority-concerns-ruling-mps-seek-tighter-checks-on-foreign-funds-ws-kl-10339468.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 38,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9159,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "Ribcage Visible, Arm Cut Off: Police Assumed Raped Delhi Teen’s Genitals Were Chopped, Mistook It For A Man's Body",
+        "url": "https://www.news18.com/india/delhi-swaroop-nagar-girl-gangrape-muder-case-body-decomposed-mistaken-for-man-teen-raped-killed-ws-l-10340235.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "'Assumed genitals were chopped off': Raped Delhi teen's body was mistaken for a man's. Then appeared a tattoo",
+        "url": "https://www.hindustantimes.com/india-news/delhi-teen-gangrape-murder-police-assumed-genitals-were-chopped-off-body-mistaken-for-a-mans-swaroop-nagar-minor-101789782131074.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 39,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9337,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "'How Is It A Book On Cinema?' Kishore Kumar Biography’s National Film Award Faces High Court Challenge",
+        "url": "https://www.news18.com/india/how-is-it-a-book-on-cinema-kishore-kumar-biographys-national-film-award-faces-high-court-challenge-ws-l-10340351.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Why is Kishore Kumar biography classified as 'best cinema book'? HC asks Centre",
+        "url": "https://www.hindustantimes.com/india-news/kishore-kumar-biography-best-book-on-cinema-award-challenged-in-high-court-mib-notice-national-film-awards-101789788625624.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 40,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.8949,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "Nithari Acquittee Surendra Koli Changed Name To ‘Sada Ram’, Worked At Haridwar Tea Stall In His Final Days",
+        "url": "https://www.news18.com/india/nithari-acquittee-surendra-koli-changed-name-to-sada-ram-worked-at-haridwar-tea-stall-in-his-final-days-10340344.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Nithari case's Surendra Koli, acquitted in all 13 cases, found dead in Haridwar",
+        "url": "https://www.hindustantimes.com/india-news/nithari-killing-case-surendra-koli-acquitted-in-all-13-cases-found-dead-in-haridwar-101789784892894.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 41,
+    "size": 2,
+    "sources": [
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.8798,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "21 killed in car bomb blast in northwestern Pakistan",
+        "url": "https://www.thehindu.com/news/international/blast-rips-through-mosque-during-friday-prayers-in-northwest-pakistan-16-killed-dozens-injured/article71480235.ece"
+      },
+      {
+        "source": "news18",
+        "title": "20 Killed, 55 Injured In Blast Near Mosque In Pakistan’s Kohat",
+        "url": "https://www.news18.com/world/pakistan-mosque-blast-in-kohat-killed-injured-updates-10338813.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 42,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "cohesion": 0.9055,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "Parents win $40 million award in Uber passenger death case",
+        "url": "https://www.thehindu.com/news/international/parents-win-40-million-award-in-uber-passenger-death-case/article71483559.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Who was Emily Normandin-Parker? Uber to pay $40 million to family of UCLA grad killed after driver left her on freeway",
+        "url": "https://www.hindustantimes.com/world-news/us-news/who-was-emily-normandin-parker-uber-to-pay-40-million-to-family-of-ucla-grad-killed-after-driver-left-her-on-freeway-101789746800125.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 43,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9017,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "Google Gemini Hacked Three Companies, Accessed Internet, Guessed Credentials During Cybersecurity Test",
+        "url": "https://www.news18.com/world/google-gemini-ai-accessed-internet-hacked-other-companies-cybersecurity-test-guessed-passwords-public-credentials-ws-l-10340174.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "Gemini hacked 3 AI companies during testing by cybersecurity firm, Google confirms after report",
+        "url": "https://www.hindustantimes.com/world-news/gemini-hacked-3-ai-companies-during-testing-by-cybersecurity-firm-google-confirms-after-report-101789774576431.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 44,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.9371,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "Trump claims Don Jr. ‘paid back’ Putin-linked Russian oligarch Umar Kremlev's expenses in Bettina Anderson wedding",
+        "url": "https://www.hindustantimes.com/world-news/us-news/trump-claims-don-jr-paid-back-putin-linked-russian-oligarch-umar-kremlevs-expenses-in-bettina-anderson-wedding-101789778016295.html"
+      },
+      {
+        "source": "news18",
+        "title": "'He Paid Him Back': Trump Says Son Repaid Kremlin-Linked Russian Tycoon For Post-Wedding Party",
+        "url": "https://www.news18.com/world/donald-trump-says-son-repaid-kremlin-linked-russian-tycoon-for-post-wedding-party-ws-l-10340035.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 45,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "cohesion": 0.9592,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "U.S. appeals court rejects Trump policy allowing swift deportations to third countries",
+        "url": "https://www.thehindu.com/news/international/us-appeals-court-rejects-trump-policy-allowing-swift-deportations-to-third-countries/article71483004.ece"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "US appeals court rejects Trump policy allowing swift deportations to third countries",
+        "url": "https://www.hindustantimes.com/world-news/us-news/us-appeals-court-rejects-trump-policy-allowing-swift-deportations-to-third-countries-101789763570161.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 46,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "cohesion": 0.9511,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "Hundreds of thousands attend Iran's biggest government-organized rally since the war began",
+        "url": "https://www.hindustantimes.com/world-news/us-news/hundreds-of-thousands-attend-iran-s-biggest-government-organized-rally-since-the-war-began-101789763752306.html"
+      },
+      {
+        "source": "the_hindu",
+        "title": "Hundreds of thousands attend Iran’s biggest government-organised rally since the war began",
+        "url": "https://www.thehindu.com/news/international/hundreds-of-thousands-attend-irans-biggest-government-organised-rally-since-the-war-began/article71482094.ece"
+      }
+    ]
+  },
+  {
+    "cluster_id": 47,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "cohesion": 0.8985,
+    "articles": [
+      {
+        "source": "hindustan_times",
+        "title": "Nigerian police use tear gas during protests over the deaths in custody of 37 miners",
+        "url": "https://www.hindustantimes.com/world-news/us-news/nigerian-police-use-tear-gas-during-protests-over-the-deaths-in-custody-of-37-miners-101789759718496.html"
+      },
+      {
+        "source": "the_hindu",
+        "title": "Nigeria police fire tear gas at protesters over deaths of 37 miners in custody",
+        "url": "https://www.thehindu.com/news/international/nigeria-police-fire-tear-gas-at-protesters-over-deaths-of-miners-in-custody/article71480444.ece"
+      }
+    ]
+  },
+  {
+    "cluster_id": 49,
+    "size": 2,
+    "sources": [
+      "news18",
+      "the_hindu"
+    ],
+    "cohesion": 0.9159,
+    "articles": [
+      {
+        "source": "the_hindu",
+        "title": "Saudi Aramco halts October crude deliveries to some European refiners after pipeline attack, says report",
+        "url": "https://www.thehindu.com/news/international/saudi-aramco-halts-october-crude-deliveries-to-some-european-refiners-after-pipeline-attack-says-report/article71481954.ece"
+      },
+      {
+        "source": "news18",
+        "title": "No Crude Oil For Europe: Saudi Arabia Cuts Supply After Oil Pipeline Attack",
+        "url": "https://www.news18.com/world/no-crude-oil-for-europe-saudi-arabia-cuts-supply-after-houthi-attacks-ws-l-10339492.html"
+      }
+    ]
+  },
+  {
+    "cluster_id": 50,
+    "size": 2,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "cohesion": 0.8403,
+    "articles": [
+      {
+        "source": "news18",
+        "title": "'Deadly & Crushing Response': Afghan Taliban Warns Pakistan Against Border Violations | Exclusive Details",
+        "url": "https://www.news18.com/world/deadly-crushing-response-afghan-taliban-warns-pakistan-against-border-violations-exclusive-details-ws-l-10339643.html"
+      },
+      {
+        "source": "hindustan_times",
+        "title": "‘Afghanistan will defend’: Taliban warns Pakistan of ‘crushing response’ to any strike inside country",
+        "url": "https://www.hindustantimes.com/world-news/afghanistan-will-defend-taliban-warns-pakistan-of-crushing-response-to-any-strike-inside-country-101789739835901.html"
+      }
+    ]
+  }
+]

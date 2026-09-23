@@ -1,0 +1,11 @@
+.venv/
+.env
+data/*.log
+__pycache__/
+*.pyc
+
+# data/digest.db is deliberately NOT ignored: the scheduled collector
+# accumulates articles into it between runs, so it is real state, not a
+# build artifact. .env stays ignored — secrets live in GitHub Secrets.
+data/*.log
+data/digest_preview.*

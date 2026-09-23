@@ -1,0 +1,13 @@
+# Full pipeline. Install CPU-only torch — the default wheel pulls ~2GB of CUDA
+# libraries that are useless on a CI runner with no GPU.
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+feedparser==6.0.14
+trafilatura==2.2.0
+requests==2.34.2
+python-dotenv==1.2.3
+numpy==2.5.3
+scikit-learn==1.9.1
+sentence-transformers==6.1.0
+torch==2.14.0
+pydantic==2.13.5
+anthropic==1.7.0

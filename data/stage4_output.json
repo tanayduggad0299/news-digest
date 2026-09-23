@@ -1,0 +1,1073 @@
+[
+  {
+    "headline": "Iran Warns of Escalation and Refuses to Reopen Strait of Hormuz Without US Commitments",
+    "impact_score": 3,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "what_happened": "Iran has warned of prolonged retaliatory strikes if attacked by the US and declared it will not reopen the strategic Strait of Hormuz until its seven conditions for ending the war are met. These statements come amid fears of a fresh US military strike and a deadlock over the conflict that began in February 2026.",
+    "whats_next": "Iran is awaiting a response from US President Donald Trump to the seven conditions conveyed through Qatari mediators for starting negotiations to end the war.",
+    "published_claims": [
+      {
+        "text": "Iran has communicated seven conditions to the United States through Qatari mediators as a basis for ending the war.",
+        "claim_type": "quantitative",
+        "value": "seven",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "The conflict between the US, Israel, and Iran began in late February.",
+        "claim_type": "quantitative",
+        "value": "late February",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "Iran's Supreme National Security Council secretary Mohsen Rezaei identified three specific issues that must be resolved before the conflict ends.",
+        "claim_type": "quantitative",
+        "value": "three",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "Iran's military warned that any attack by the US would lead to prolonged strikes against American bases and interests across West Asia.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "Iran's Speaker of the Parliament Mohammad Bagher Ghalibaf stated that the Strait of Hormuz would not be reopened until Iran's conditions are met and US commitments are implemented.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "Iran's proposed conditions for peace include an immediate halt to hostilities on all fronts, the release of frozen Iranian assets, and an end to the US naval blockade.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "Mohsen Rezaei stated that Iranian military assessments indicate another US strike is very much on the cards.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "The initial US-Israeli strikes killed Iranian Supreme Leader Ayatollah Ali Khamenei along with several senior officials.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times"
+        ],
+        "support_count": 1,
+        "single_source": true
+      },
+      {
+        "text": "The US State Department released a security advisory advising Americans in the Middle East to exercise caution and reconsider travel.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times"
+        ],
+        "support_count": 1,
+        "single_source": true
+      }
+    ],
+    "withheld_claims": [
+      {
+        "text": "The US-Iran war officially began on February 28 with coordinated US and Israeli air strikes on Iran.",
+        "claim_type": "quantitative",
+        "value": "February 28",
+        "supported_by": [
+          "Hindustan Times"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "Mohammad Bagher Ghalibaf addressed the Iranian Parliament on September 20, 2026.",
+        "claim_type": "quantitative",
+        "value": "September 20, 2026",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "Qatar and Pakistan have been working to re-establish negotiations between Tehran and Washington since the expiry of a memorandum of understanding in August.",
+        "claim_type": "quantitative",
+        "value": "August",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      }
+    ],
+    "contradictions": [
+      {
+        "topic": "Mohammad Bagher Ghalibaf's official role",
+        "versions": [
+          {
+            "source": "Hindustan Times",
+            "value": "Iran's top negotiator"
+          },
+          {
+            "source": "The Hindu",
+            "value": "Speaker of the Iranian Parliament"
+          },
+          {
+            "source": "Hindustan Times",
+            "value": "parliament speaker"
+          }
+        ],
+        "surface": true
+      }
+    ],
+    "stats": {
+      "claims_in": 12,
+      "published": 9,
+      "withheld": 3,
+      "single_source_published": 2,
+      "contradictions": 1,
+      "essential_withheld": 1
+    },
+    "urls": [
+      "https://www.hindustantimes.com/world-news/west-asia-war-to-resume-iran-warns-of-fresh-us-action-regional-countries-support-amid-deadlock-over-peace-deal-101789908431946.html",
+      "https://www.thehindu.com/news/international/no-reopening-of-strait-of-hormuz-until-irans-conditions-are-met-says-ghalibaf/article71487500.ece",
+      "https://www.hindustantimes.com/world-news/iran-wont-reopen-strait-of-hormuz-until-conditions-us-commitments-are-met-qalibaf-101789887576025.html"
+    ]
+  },
+  {
+    "headline": "Chief Minister Chandrababu Naidu directs steps to mitigate impact of El Niño in Andhra Pradesh",
+    "impact_score": 3,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "what_happened": "Andhra Pradesh Chief Minister N. Chandrababu Naidu directed officials to implement contingency plans to mitigate the impact of El Niño and drought-like conditions on agriculture, essential prices, and drinking water availability in the state.",
+    "whats_next": "District collectors are to submit drought proposals by September 24, 2026, which will be examined at a state-level committee meeting on September 29, 2026, before drought-affected mandals are declared by October 1, 2026.",
+    "published_claims": [
+      {
+        "text": "Chief Minister Chandrababu Naidu ordered measures to mitigate the drought-like and El Niño conditions affecting Andhra Pradesh.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "The Hindu",
+          "Hindustan Times"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "CM Naidu directed officials to keep the prices of rice, onion, palm oil, and red gram under control.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "single_source": true
+      }
+    ],
+    "withheld_claims": [
+      {
+        "text": "Andhra Pradesh recorded a 50.7% rainfall deficit.",
+        "claim_type": "quantitative",
+        "value": "50.7%",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "Nearly 75% of Andhra Pradesh is reeling under drought-like conditions.",
+        "claim_type": "quantitative",
+        "value": "nearly 75%",
+        "supported_by": [
+          "Hindustan Times"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "A preliminary assessment indicated drought-like conditions in 513 mandals across 28 districts.",
+        "claim_type": "quantitative",
+        "value": "513 mandals",
+        "supported_by": [
+          "Hindustan Times"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "The state government prepared Rs 60 crore for the kharif contingency plan.",
+        "claim_type": "quantitative",
+        "value": "₹60 crore",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "The government allocated Rs 190 crore to protect horticulture crops in high-risk areas.",
+        "claim_type": "quantitative",
+        "value": "₹190 crore",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "The state government supplied 1.31 lakh quintals of seeds at an 80% subsidy.",
+        "claim_type": "quantitative",
+        "value": "1.31 lakh quintals",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "Out of the targeted kharif cultivation area of 30.84 lakh hectares, cultivation began in 79% of the area.",
+        "claim_type": "quantitative",
+        "value": "79%",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "El Niño conditions could affect horticulture and other crops over 17,916 hectares.",
+        "claim_type": "quantitative",
+        "value": "17,916 hectares",
+        "supported_by": [
+          "Hindustan Times"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "The government spent Rs 3,500 crore within 100 days to bring water into canals through the Handri-Neeva project.",
+        "claim_type": "quantitative",
+        "value": "₹3,500 crore",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "Crops under 1,357 Rythu Seva Kendras in 21 districts were identified as high-risk.",
+        "claim_type": "quantitative",
+        "value": "1,357",
+        "supported_by": [
+          "Hindustan Times"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      }
+    ],
+    "contradictions": [
+      {
+        "topic": "Day of the review meeting",
+        "versions": [
+          {
+            "source": "The Hindu",
+            "value": "Sunday"
+          },
+          {
+            "source": "Hindustan Times",
+            "value": "Saturday"
+          }
+        ],
+        "surface": true
+      }
+    ],
+    "stats": {
+      "claims_in": 12,
+      "published": 2,
+      "withheld": 10,
+      "single_source_published": 1,
+      "contradictions": 1,
+      "essential_withheld": 2
+    },
+    "urls": [
+      "https://www.thehindu.com/news/national/andhra-pradesh/chief-minister-chandrababu-naidu-directs-steps-to-mitigate-impact-of-el-nino-in-andhra-pradesh/article71487694.ece",
+      "https://www.hindustantimes.com/india-news/andhra-cm-seeks-steps-to-mitigate-drought-like-conditions-101789846631667.html"
+    ]
+  },
+  {
+    "headline": "Mass drone barrage on Moscow kills two",
+    "impact_score": 3,
+    "sources": [
+      "hindustan_times",
+      "the_hindu"
+    ],
+    "what_happened": "Ukraine launched a massive drone attack targeting Moscow and surrounding regions on September 20, 2026, killing at least two people and damaging a major oil refinery during Russia's parliamentary elections.",
+    "whats_next": "Moscow Mayor Sergei Sobyanin said emergency services are on the scene at the damaged refinery.",
+    "published_claims": [
+      {
+        "text": "At least two people were killed after Ukraine launched a massive drone attack targeting Moscow and surrounding regions.",
+        "claim_type": "quantitative",
+        "value": "two",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "A major oil refinery in the Moscow region was damaged during the drone attack.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "The two victims killed were a 44-year-old woman and an elderly man in two separate locations.",
+        "claim_type": "quantitative",
+        "value": "44-year-old woman and an elderly man",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "A fire triggered by a drone crashing into a 21-storey building led to the evacuation of 400 people.",
+        "claim_type": "quantitative",
+        "value": "21-storey building and 400 people",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "450 drones in the attack were aimed at Moscow.",
+        "claim_type": "quantitative",
+        "value": "450",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "The drone strikes occurred on the third and final day of Russia's parliamentary elections.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "Moscow Mayor Sergei Sobyanin accused Ukraine of attempting to disrupt and interfere in the elections.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "The vote is the first parliamentary election held in Russia since the war broke out in 2022.",
+        "claim_type": "quantitative",
+        "value": "2022",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "Russia organized parliamentary voting in four annexed Ukrainian regions and in Crimea.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      }
+    ],
+    "withheld_claims": [
+      {
+        "text": "Ukrainian President Volodymyr Zelensky stated that Kyiv was subjected to over 2,000 drones, 1,700 aerial bombs, and 19 missile attacks during the week.",
+        "claim_type": "quantitative",
+        "value": "2,000 drones, 1,700 aerial bombs, and 19 missile attacks",
+        "supported_by": [
+          "Hindustan Times"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "U.S. President Donald Trump stated on September 14 that Ukraine and Russia agreed not to target each other's energy facilities.",
+        "claim_type": "quantitative",
+        "value": "September 14",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      }
+    ],
+    "contradictions": [
+      {
+        "topic": "Total number of drones shot down across Russia",
+        "versions": [
+          {
+            "source": "Hindustan Times",
+            "value": "around 1,110 drones across the country and over Crimea (citing Russian Defence Ministry)"
+          },
+          {
+            "source": "The Hindu",
+            "value": "more than 1,600 drones intercepted and shot down (citing Moscow Mayor Sergei Sobyanin)"
+          }
+        ],
+        "surface": true
+      }
+    ],
+    "stats": {
+      "claims_in": 11,
+      "published": 9,
+      "withheld": 2,
+      "single_source_published": 0,
+      "contradictions": 1,
+      "essential_withheld": 0
+    },
+    "urls": [
+      "https://www.hindustantimes.com/world-news/russia-ukraine-war-moscow-drone-attack-putin-elections-volodymyr-zelensky-kyiv-news-101789892159706.html",
+      "https://www.thehindu.com/news/international/mass-drone-barrage-on-moscow-kills-two/article71487158.ece"
+    ]
+  },
+  {
+    "headline": "Iran Transmits 7 Demands to US via Qatar to End War",
+    "impact_score": 3,
+    "sources": [
+      "hindustan_times",
+      "news18"
+    ],
+    "what_happened": "Iran has laid out seven conditions, including three specific demands to end the war, to the United States through regional mediators and is awaiting a response from President Donald Trump.",
+    "whats_next": "Washington is expected to reply to the proposal through Qatari channels, and Pakistani interior minister Mohsin Naqvi is expected to visit Tehran.",
+    "published_claims": [
+      {
+        "text": "Iran has laid out seven conditions to the United States to restart negotiations or talks.",
+        "claim_type": "quantitative",
+        "value": "seven",
+        "supported_by": [
+          "Hindustan Times",
+          "News18"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "news18"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "Iran's three core demands to end the war are a complete cessation of hostilities on all fronts, the release of frozen national assets, and the termination of the US naval blockade.",
+        "claim_type": "quantitative",
+        "value": "three",
+        "supported_by": [
+          "Hindustan Times",
+          "News18"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "news18"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "Mohsen Rezaei, secretary of Iran's Supreme National Security Council, stated that Tehran is prepared for a decisive war if the US rejects its conditions.",
+        "claim_type": "descriptive",
+        "value": "N/A",
+        "supported_by": [
+          "Hindustan Times",
+          "News18"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "news18"
+        ],
+        "support_count": 2,
+        "single_source": false
+      }
+    ],
+    "withheld_claims": [
+      {
+        "text": "The US-Israeli war on Iran began on February 28 after coordinated airstrikes assassinated Iranian Supreme Leader Ali Khamanei.",
+        "claim_type": "quantitative",
+        "value": "February 28",
+        "supported_by": [
+          "Hindustan Times"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "A UN fact-finding mission accused the US of committing war crimes in Iran over two military strikes in February.",
+        "claim_type": "quantitative",
+        "value": "two",
+        "supported_by": [
+          "News18"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "news18"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "A US strike on the Shajareh Tayyebeh Primary School in Minab killed more than 150 people, including around 120 schoolchildren.",
+        "claim_type": "quantitative",
+        "value": "more than 150",
+        "supported_by": [
+          "News18"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "news18"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      },
+      {
+        "text": "A US strike on a sports centre in Lamerd killed and injured 22 civilians.",
+        "claim_type": "quantitative",
+        "value": "22",
+        "supported_by": [
+          "News18"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "news18"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/2 sources (needs 2)"
+      }
+    ],
+    "contradictions": [],
+    "stats": {
+      "claims_in": 7,
+      "published": 3,
+      "withheld": 4,
+      "single_source_published": 0,
+      "contradictions": 0,
+      "essential_withheld": 0
+    },
+    "urls": [
+      "https://www.hindustantimes.com/world-news/iran-sets-7-conditions-for-us-talks-warns-trump-of-decisive-war-if-terms-rejected-101789873786415.html",
+      "https://www.news18.com/world/iran-7-conditions-us-talks-mohsen-rezaei-us-iran-war-middle-east-conflict-ws-l-10341840.html",
+      "https://www.news18.com/world/iran-sets-3-conditions-to-end-war-with-us-now-tehran-awaits-trumps-response-ws-lt-10341796.html"
+    ]
+  },
+  {
+    "headline": "North Korea Fires Two Ballistic Missiles into East Sea",
+    "impact_score": 2,
+    "sources": [
+      "hindustan_times",
+      "news18",
+      "the_hindu"
+    ],
+    "what_happened": "North Korea fired projectiles, suspected to be ballistic missiles, from its eastern coast on Sunday, September 20, 2026, drawing condemnation from South Korea and Japan.",
+    "whats_next": null,
+    "published_claims": [
+      {
+        "text": "North Korea fired two projectiles from its eastern coast on Sunday.",
+        "claim_type": "quantitative",
+        "value": "two",
+        "supported_by": [
+          "News18",
+          "Hindustan Times"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "news18"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "The first launch occurred from the Wonsan area.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "News18",
+          "Hindustan Times"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "news18"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "The first launch took place at around 3 p.m. local time.",
+        "claim_type": "quantitative",
+        "value": "3 pm local time",
+        "supported_by": [
+          "News18",
+          "Hindustan Times"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "news18"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "The first projectile was identified as a short-range ballistic missile.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "News18",
+          "Hindustan Times"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "hindustan_times",
+          "news18"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "The first missile was believed to be part of the Hwasong-11 series.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "News18"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "news18"
+        ],
+        "support_count": 1,
+        "single_source": true
+      },
+      {
+        "text": "The first missile fell outside Japan's exclusive economic zone.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "News18"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "news18"
+        ],
+        "support_count": 1,
+        "single_source": true
+      },
+      {
+        "text": "The launches occurred eight days after North Korea fired multiple short-range ballistic missiles in a joint firepower drill.",
+        "claim_type": "quantitative",
+        "value": "eight days",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "North Korea rejected a resolution adopted by the UN nuclear watchdog concerning its nuclear programme.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "News18",
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times",
+          "news18",
+          "the_hindu"
+        ],
+        "support_count": 3,
+        "single_source": false
+      },
+      {
+        "text": "A North Korean foreign ministry spokesperson stated the IAEA resolution has no effect on its position as a nuclear weapons state.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "Hindustan Times",
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "hindustan_times",
+          "the_hindu"
+        ],
+        "support_count": 2,
+        "single_source": false
+      },
+      {
+        "text": "Kim Yo Jong blamed US-led military exercises for worsening tensions on the Korean Peninsula.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "News18"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "news18"
+        ],
+        "support_count": 1,
+        "single_source": true
+      },
+      {
+        "text": "Japan lodged a protest against the launch through diplomatic channels in Beijing.",
+        "claim_type": "descriptive",
+        "value": "",
+        "supported_by": [
+          "News18"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "news18"
+        ],
+        "support_count": 1,
+        "single_source": true
+      }
+    ],
+    "withheld_claims": [
+      {
+        "text": "The first missile travelled around 450 km (280 miles).",
+        "claim_type": "quantitative",
+        "value": "around 450 km (280 miles)",
+        "supported_by": [
+          "News18"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "news18"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/3 sources (needs 2)"
+      },
+      {
+        "text": "The launch occurred on September 20, 2026.",
+        "claim_type": "quantitative",
+        "value": "September 20, 2026",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": true,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/3 sources (needs 2)"
+      },
+      {
+        "text": "North Korea previously conducted a missile test on September 12.",
+        "claim_type": "quantitative",
+        "value": "September 12",
+        "supported_by": [
+          "News18"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "news18"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/3 sources (needs 2)"
+      },
+      {
+        "text": "Donald Trump stated in August that North Korea possessed 57 nuclear weapons.",
+        "claim_type": "quantitative",
+        "value": "57",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/3 sources (needs 2)"
+      },
+      {
+        "text": "South Korea estimated that North Korea possesses between 80 and 120 nuclear weapons.",
+        "claim_type": "quantitative",
+        "value": "between 80 and 120",
+        "supported_by": [
+          "The Hindu"
+        ],
+        "is_essential": false,
+        "resolved_sources": [
+          "the_hindu"
+        ],
+        "support_count": 1,
+        "reason": "quantitative claim with 1/3 sources (needs 2)"
+      }
+    ],
+    "contradictions": [
+      {
+        "topic": "The time elapsed between the first and second missile launches",
+        "versions": [
+          {
+            "source": "News18",
+            "value": "about three hours"
+          },
+          {
+            "source": "Hindustan Times",
+            "value": "a couple of hours"
+          }
+        ],
+        "surface": true
+      }
+    ],
+    "stats": {
+      "claims_in": 16,
+      "published": 11,
+      "withheld": 5,
+      "single_source_published": 4,
+      "contradictions": 1,
+      "essential_withheld": 1
+    },
+    "urls": [
+      "https://www.news18.com/world/threatens-peace-and-security-north-korea-fires-two-missiles-in-3-hours-seoul-condemns-10342505.html",
+      "https://www.hindustantimes.com/world-news/north-korea-fires-2-ballistic-missiles-into-east-sea-japan-south-korea-monitor-situation-reports-101789895280813.html",
+      "https://www.thehindu.com/news/international/north-korea-fires-unidentified-projectile-into-east-sea-seoul/article71487358.ece"
+    ]
+  }
+]

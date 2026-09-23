@@ -1,0 +1,559 @@
+{
+  "usage": {
+    "input": 12692,
+    "output": 3156,
+    "cost_usd": 0.0,
+    "provider": "gemini",
+    "model": "gemini-3.6-flash",
+    "api_calls": 4
+  },
+  "refusals": [],
+  "errors": [
+    {
+      "batch": 3,
+      "error": "LLMError: failed after 5 attempts: HTTPError: HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "scored": [
+    {
+      "cluster_id": 0,
+      "headline": "ABVP wins Delhi University Students' Union elections",
+      "impact_score_llm": 1,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "local",
+        "people_affected": "thousands",
+        "is_binding_decision": true,
+        "consequence_severity": "minimal",
+        "domain": "politics"
+      },
+      "reasoning": "Student union elections affect university governance and campus politics, representing a limited demographic primarily confined to Delhi University.",
+      "sources": [
+        "hindustan_times",
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "'Big Fat Zero To Rahul Gandhi': BJP Takes Swipe At Congress After ABVP's Victory In DUSU Election",
+        "ABVP sweeps, NSUI upsets, Independent grabs key seat: Key takeaways from Delhi University polls",
+        "Meet Riya Chhawdi, ABVP's New DUSU Secretary: From Farmer's Family To Basketball, Student Politics",
+        "ABVP wins 3 DUSU posts; independent candidate Deepanshu Shokeen gets vice-president’s position",
+        "DUSU Election Results 2026 LIVE: Amit Shah Congratulates ABVP After Victory, Says Win Reflects ‘Nation First’ Ideology",
+        "DUSU Results 2026: ABVP Wins 3 Posts, Retains President’s Seat; Independent Takes VP",
+        "ABVP Conquers DUSU Polls: Have Rahul Gandhi's 'Chhatron Ki Goonj', CJP Youth Campaigns Failed The Campus Test?",
+        "Who is Deepanshu Shokeen? Independent candidate wins DUSU Vice President contest",
+        "DUSU 2026 election results LIVE: ABVP sweeps DUSU polls, secures 3 posts, Independent Deepanshu Shokeen wins VP seat"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "headline": "Trump signs Russia sanctions bill authorizing 100% tariffs on energy buyers including India",
+      "impact_score_llm": 3,
+      "impact_score_derived": 3,
+      "indicators": {
+        "geographic_scale": "international",
+        "people_affected": "hundreds_of_millions",
+        "is_binding_decision": true,
+        "consequence_severity": "severe",
+        "domain": "international trade"
+      },
+      "reasoning": "The legislation signed into law grants authority to levy massive tariffs on major global economies like India and China, with potential wide-scale economic and geopolitical ramifications across international energy markets.",
+      "sources": [
+        "hindustan_times",
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "U.S. House advances Russia sanctions Bill that seeks 100% tariffs on India, others; set for final vote",
+        "U.S. House passes Russia sanctions Bill seeking to impose up to 100% tariffs on India, others",
+        "Trump signs Russia sanctions bill into law",
+        "HT Morning News Brief Sept 19: India faces 100% tariff threat under US Act, Meghna Gulzar's film opens to slow response",
+        "'100% Tariff Is Not Automatic': What Trump’s New Russia Sanctions Law Actually Means For India",
+        "Trump Signs Bill Allowing 100% Tariffs On India, China Over Russian Oil Ahead Of Xi Meet",
+        "Trump signs Russia sanctions bill into law, granted power to impose 100% tariffs on India, China",
+        "Trump To Sign Russia Sanctions Bill Today, Enabling 100% Tariffs On India, US Official Says"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "headline": "US, Denmark, and Greenland reach security deal for Arctic military expansion",
+      "impact_score_llm": 2,
+      "impact_score_derived": 2,
+      "indicators": {
+        "geographic_scale": "international",
+        "people_affected": "thousands",
+        "is_binding_decision": true,
+        "consequence_severity": "moderate",
+        "domain": "defence"
+      },
+      "reasoning": "An international agreement between sovereign nations reshaping Arctic defense, security arrangements, and foreign military footprints holds significant geopolitical impact.",
+      "sources": [
+        "hindustan_times",
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "'A Dream Come True': Trump Hails Greenland Deal, Hints At Increasing Military Presence In Region",
+        "Trump claims 'permanent control' over Greenland security: What new US-Denmark deal entails",
+        "What does the new U.S.-Denmark deal over Greenland entail, after Trump’s takeover threats?",
+        "U.S. and Denmark reach deal on Greenland: Trump",
+        "Denmark PM Says Greenland Security Deal With US 'Good For NATO And Europe'",
+        "Trump Announces ‘Infinite Life’ Greenland Deal: US Claims Permanent Security Control Over Arctic Island",
+        "Trump announces deal with Denmark giving US 'permanent control over security' in Greenland"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "headline": "Nandigram Congress candidate arrested and remanded in custody ahead of bypoll",
+      "impact_score_llm": 1,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "local",
+        "people_affected": "thousands",
+        "is_binding_decision": true,
+        "consequence_severity": "moderate",
+        "domain": "politics"
+      },
+      "reasoning": "The legal action directly affects a candidate's ability to campaign in a single local assembly constituency by-election.",
+      "sources": [
+        "hindustan_times",
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "Congress questions timing of candidate’s arrest ahead of Nandigram bypoll",
+        "Nandigram by-poll: Cong candidate sent to judicial custody till Oct 3; can’t campaign",
+        "Nandigram Bypoll: Congress Candidate Milan Pradhan Sent To Judicial Custody Till Oct 3",
+        "Arrest of Nandigram Congress candidate lawful step: West Bengal Police",
+        "Nandigram bypoll: Congress candidate Milan Pradhan arrested hours after getting Mamata’s support",
+        "Nandigram bypoll: Congress candidate facing 19-year-old murder, rioting cases to be produced in court"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "headline": "FIR registered and campus protests erupt after IIT Bombay student suicide",
+      "impact_score_llm": 1,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "local",
+        "people_affected": "thousands",
+        "is_binding_decision": true,
+        "consequence_severity": "moderate",
+        "domain": "education"
+      },
+      "reasoning": "A tragic individual event leading to police action and localized campus protests at a single university.",
+      "sources": [
+        "hindustan_times",
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "FIR Filed After IIT Bombay Student Suicide; ChatGPT Exam Row Sparks Campus Protests",
+        "Caught Using ChatGPT In Exam, Body Found, Campus Protests: What We Know About IIT Bombay Suicide Case",
+        "IIT Bombay student found dead in hostel; institute says had been caught using mobile phone during exam",
+        "'No action initiated': IIT Bombay refutes claims on student's death after ChatGPT row",
+        "IIT Bombay Student Kills Self On Campus After Professor Catches Him Using ChatGPT During Exam",
+        "1-Year Suspension Over ChatGPT Use? What IIT Bombay Said After Student’s Suicide"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "headline": "Trump extends $100,000 H-1B visa fee for another year",
+      "impact_score_llm": 2,
+      "impact_score_derived": 2,
+      "indicators": {
+        "geographic_scale": "international",
+        "people_affected": "thousands",
+        "is_binding_decision": true,
+        "consequence_severity": "severe",
+        "domain": "immigration"
+      },
+      "reasoning": "Extending high fees on skilled worker visas directly impacts thousands of international professionals, tech companies, and multinational recruitment policies.",
+      "sources": [
+        "hindustan_times",
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "Trump extends $100,000 H-1B fee for another year: What it means for Indian professionals",
+        "Trump extends $100,000 H-1B fee for another year despite ongoing legal battle",
+        "Trump renews USD 1,00,000 fee on H-1B visas, tightens scrutiny",
+        "Trump extends push for $100,000 H-1B visas by another year",
+        "Trump Extends $100,000 H-1B Visa Fee For Another Year - What This Means For Indians"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "headline": "White House bars CNN, MS NOW, and Politico from press access",
+      "impact_score_llm": 1,
+      "impact_score_derived": 2,
+      "indicators": {
+        "geographic_scale": "national",
+        "people_affected": "few",
+        "is_binding_decision": true,
+        "consequence_severity": "moderate",
+        "domain": "media"
+      },
+      "reasoning": "While politically notable regarding press freedom norms, restricting press access to specific media organizations has limited direct material impact on the daily lives of the general public.",
+      "sources": [
+        "hindustan_times",
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "Trump bans media outlets CNN, MS NOW, Politico from White House",
+        "Did Trump staff remove CNN, MS NOW reporters from White House after POTUS' ban? Truth behind viral video",
+        "White House correspondents body slams Trump's ban on CNN, MS NOW and Politico",
+        "'Fake News': Trump Bars CNN, MS NOW, Politico From White House, Warns More Bans Coming",
+        "Why Trump is banning CNN, Politico and MS Now from the White House; What we know so far"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "headline": "TMC candidate for Rejinagar bypoll announces withdrawal then retracts decision",
+      "impact_score_llm": 0,
+      "impact_score_derived": 0,
+      "indicators": {
+        "geographic_scale": "local",
+        "people_affected": "few",
+        "is_binding_decision": false,
+        "consequence_severity": "minimal",
+        "domain": "politics"
+      },
+      "reasoning": "Minor political intrigue and indecision surrounding a single candidate's nomination status in a local by-election.",
+      "sources": [
+        "hindustan_times",
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "Mamata’s Rejinagar bypoll candidate announces withdrawal from contest, retracts later",
+        "Two withdrawals, one U-turn: TMC chaos ahead of Bengal bypolls",
+        "'Will Go To People With New Symbol': TMC's Rejinagar Pick Makes U-Turn After Withdrawing Candidature",
+        "TMC's Rejinagar candidate decides to withdraw from bypoll, then backtracks"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "headline": "Pentagon disputes report claiming higher US troop death toll in Iran war",
+      "impact_score_llm": 1,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "national",
+        "people_affected": "few",
+        "is_binding_decision": false,
+        "consequence_severity": "minimal",
+        "domain": "defence"
+      },
+      "reasoning": "The story centers on a dispute over whether four additional military fatalities were uncounted in official public data. While it touches on a major military conflict, the specific story is a dispute over casualty reporting numbers.",
+      "sources": [
+        "hindustan_times",
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "U.S. troop deaths during Iran war exceed Pentagon count by at least four: report",
+        "‘Complete Lie’: Pete Hegseth Hits Back At Report Claiming Higher US Troop Death Toll In Iran War",
+        "Is Pentagon hiding actual count of US troops killed in Iran war? Pete Hegseth calls WaPo report ‘a complete lie’",
+        "Pentagon Hiding True Scale Of US Deaths In Iran War, Toll Higher Than Official Count: Report"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "headline": "1965 Indo-Pak war hero Flight Lieutenant Alfred Tyrone Cooke dies",
+      "impact_score_llm": 1,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "national",
+        "people_affected": "few",
+        "is_binding_decision": false,
+        "consequence_severity": "minimal",
+        "domain": "military"
+      },
+      "reasoning": "This is an obituary and tribute to a decorated military veteran. While historically significant, the death itself has minimal direct material impact on the broader population.",
+      "sources": [
+        "hindustan_times",
+        "the_hindu"
+      ],
+      "titles": [
+        "1965 Indo-Pak war hero Flight Lieutenant A.T. Cooke dies, IAF pays tribute",
+        "Vir Chakra awardee Alfred Tyrone Cooke, who took on 4 Pakistani jets, dies: Revisiting his 1965 dogfight heroics",
+        "1965 war hero Alfred Tyrone Cooke dies, IAF pays tribute"
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "headline": "At least 31 killed and over 100 injured in deadly attack at police complex in Pakistan",
+      "impact_score_llm": 2,
+      "impact_score_derived": 2,
+      "indicators": {
+        "geographic_scale": "national",
+        "people_affected": "thousands",
+        "is_binding_decision": false,
+        "consequence_severity": "severe",
+        "domain": "security"
+      },
+      "reasoning": "A major terrorist attack resulting in significant loss of life (31 killed, over 100 injured) and destruction of public infrastructure in a regional district headquarters.",
+      "sources": [
+        "hindustan_times",
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "31 killed, mosque reduced to rubble: Inside Pakistan’s deadly Kohat attack",
+        "31 dead in attack at police headquarters in Pakistan",
+        "Death Toll From Attack At Pakistan Police Headquarters Rises To 31, Including 16 Police Personnel"
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "headline": "Flawed AI intelligence report almost triggered US military interception of Chinese ship",
+      "impact_score_llm": 1,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "international",
+        "people_affected": "few",
+        "is_binding_decision": false,
+        "consequence_severity": "moderate",
+        "domain": "defence"
+      },
+      "reasoning": "This report details a near-miss operational incident triggered by AI-generated flawed intelligence. Because the action was called off before taking place, the direct real-world consequence remained limited.",
+      "sources": [
+        "hindustan_times",
+        "news18"
+      ],
+      "titles": [
+        "How AI ‘almost started a war’ between US and China with false intel: Report",
+        "'Almost Started A War': US Nearly Intercepted Chinese Ship After Receiving Flawed AI Intel",
+        "US military AI blunder: False intelligence on Chinese ship ‘almost started a war,’ report claims"
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "headline": "Nvidia CEO Jensen Huang dismisses fears of AI apocalypse by 2030",
+      "impact_score_llm": 0,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "international",
+        "people_affected": "few",
+        "is_binding_decision": false,
+        "consequence_severity": "minimal",
+        "domain": "technology"
+      },
+      "reasoning": "This is an executive comment/opinion dismissing hypothetical apocalyptic predictions regarding AI. It carries no binding policy or immediate practical impact.",
+      "sources": [
+        "hindustan_times",
+        "news18"
+      ],
+      "titles": [
+        "'Zero Per Cent Chance': Nvidia's Jensen Huang Dismisses Fears That AI Will End World By 2030",
+        "‘0 per cent chance’: What Nvidia CEO has to say on ‘extinction-level’ threat from AI"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "headline": "Delhi International Airport to reopen third runway after 7 months of upgrades",
+      "impact_score_llm": 2,
+      "impact_score_derived": 2,
+      "indicators": {
+        "geographic_scale": "regional",
+        "people_affected": "millions",
+        "is_binding_decision": true,
+        "consequence_severity": "moderate",
+        "domain": "transportation"
+      },
+      "reasoning": "The formal recommissioning of a key runway at India's primary air hub directly impacts flight operations, delay mitigation, and daily travel for millions of air passengers.",
+      "sources": [
+        "hindustan_times",
+        "the_hindu"
+      ],
+      "titles": [
+        "Delhi International Airport to reopen third runway for operations from September 20",
+        "Delhi airport’s third runway to reopen on September 20 after 7 months"
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "headline": "Yash Dabas elected Delhi University Students' Union president",
+      "impact_score_llm": 1,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "local",
+        "people_affected": "thousands",
+        "is_binding_decision": true,
+        "consequence_severity": "minimal",
+        "domain": "politics"
+      },
+      "reasoning": "Student union election results directly affect student governance within a specific university community, but carry limited broader real-world impact beyond the campus.",
+      "sources": [
+        "hindustan_times",
+        "news18"
+      ],
+      "titles": [
+        "From International Tennis Player To Student Leader: Who Is Yash Dabas, The New DUSU President?",
+        "Yash Dabas vs Vijay Meena vs Ananya Raturi: Meet the faces of DUSU presidency race"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "headline": "Karnataka Cabinet grants official language status to Tulu in Dakshina Kannada and Udupi",
+      "impact_score_llm": 2,
+      "impact_score_derived": 2,
+      "indicators": {
+        "geographic_scale": "regional",
+        "people_affected": "millions",
+        "is_binding_decision": true,
+        "consequence_severity": "moderate",
+        "domain": "politics"
+      },
+      "reasoning": "A binding state cabinet decision according administrative language status to Tulu across two entire districts, affecting local governance, funding, and administrative services for millions of residents.",
+      "sources": [
+        "news18",
+        "the_hindu"
+      ],
+      "titles": [
+        "Tulu as additional official language of Dakshina Kannada and Udupi districts in Karnataka | Explained",
+        "Tulu Status To TTD Land: DK Shivakumar Launches Massive Cultural Pitch In BJP’s Coastal Fortress"
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "headline": "Delhi Teen Gang-Raped and Murdered, Body Initially Mistaken for Man's",
+      "impact_score_llm": 1,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "local",
+        "people_affected": "few",
+        "is_binding_decision": false,
+        "consequence_severity": "severe",
+        "domain": "crime"
+      },
+      "reasoning": "This is a tragic local violent crime case. While severe in its consequences for the victim and immediate community, it does not represent a broad policy change or systemic impact affecting a large population.",
+      "sources": [
+        "hindustan_times",
+        "news18"
+      ],
+      "titles": [
+        "Ribcage Visible, Arm Cut Off: Police Assumed Raped Delhi Teen’s Genitals Were Chopped, Mistook It For A Man's Body",
+        "'Assumed genitals were chopped off': Raped Delhi teen's body was mistaken for a man's. Then appeared a tattoo"
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "headline": "Patna High Court Issues Notice Over National Film Award to Kishore Kumar Biography",
+      "impact_score_llm": 0,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "national",
+        "people_affected": "few",
+        "is_binding_decision": false,
+        "consequence_severity": "minimal",
+        "domain": "judiciary"
+      },
+      "reasoning": "A legal challenge regarding an arts award category has virtually no material impact on the daily lives of the general public.",
+      "sources": [
+        "hindustan_times",
+        "news18"
+      ],
+      "titles": [
+        "'How Is It A Book On Cinema?' Kishore Kumar Biography’s National Film Award Faces High Court Challenge",
+        "Why is Kishore Kumar biography classified as 'best cinema book'? HC asks Centre"
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "headline": "Acquitted Nithari Case Accused Surendra Koli Found Dead in Haridwar",
+      "impact_score_llm": 1,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "regional",
+        "people_affected": "few",
+        "is_binding_decision": false,
+        "consequence_severity": "moderate",
+        "domain": "crime"
+      },
+      "reasoning": "The death of a notable figure previously acquitted in a historic murder trial carries high media interest, but direct real-world impact is limited to the individuals involved.",
+      "sources": [
+        "hindustan_times",
+        "news18"
+      ],
+      "titles": [
+        "Nithari Acquittee Surendra Koli Changed Name To ‘Sada Ram’, Worked At Haridwar Tea Stall In His Final Days",
+        "Nithari case's Surendra Koli, acquitted in all 13 cases, found dead in Haridwar"
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "headline": "Google Gemini AI Autonomous Breach of Protected Systems During Security Test",
+      "impact_score_llm": 2,
+      "impact_score_derived": 2,
+      "indicators": {
+        "geographic_scale": "international",
+        "people_affected": "thousands",
+        "is_binding_decision": false,
+        "consequence_severity": "moderate",
+        "domain": "technology"
+      },
+      "reasoning": "Findings that leading AI models can autonomously breach internet security controls and guess credentials during testing have significant implications for global cybersecurity and tech sector regulations.",
+      "sources": [
+        "hindustan_times",
+        "news18"
+      ],
+      "titles": [
+        "Google Gemini Hacked Three Companies, Accessed Internet, Guessed Credentials During Cybersecurity Test",
+        "Gemini hacked 3 AI companies during testing by cybersecurity firm, Google confirms after report"
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "headline": "Trump Claims Son Repaid Russian Oligarch for Wedding Celebrations",
+      "impact_score_llm": 0,
+      "impact_score_derived": 1,
+      "indicators": {
+        "geographic_scale": "national",
+        "people_affected": "few",
+        "is_binding_decision": false,
+        "consequence_severity": "minimal",
+        "domain": "politics"
+      },
+      "reasoning": "Political chatter and defense regarding personal wedding expenses paid by a foreign national carry political interest but minimal direct impact on the public.",
+      "sources": [
+        "hindustan_times",
+        "news18"
+      ],
+      "titles": [
+        "Trump claims Don Jr. ‘paid back’ Putin-linked Russian oligarch Umar Kremlev's expenses in Bettina Anderson wedding",
+        "'He Paid Him Back': Trump Says Son Repaid Kremlin-Linked Russian Tycoon For Post-Wedding Party"
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "headline": "US Appeals Court Blocks Trump Policy on Swift Deportations to Third Countries",
+      "impact_score_llm": 3,
+      "impact_score_derived": 2,
+      "indicators": {
+        "geographic_scale": "national",
+        "people_affected": "thousands",
+        "is_binding_decision": true,
+        "consequence_severity": "severe",
+        "domain": "immigration"
+      },
+      "reasoning": "A binding federal appellate ruling striking down a national deportation policy directly impacts due process rights and legal protections for thousands of migrants nationwide.",
+      "sources": [
+        "hindustan_times",
+        "the_hindu"
+      ],
+      "titles": [
+        "U.S. appeals court rejects Trump policy allowing swift deportations to third countries",
+        "US appeals court rejects Trump policy allowing swift deportations to third countries"
+      ]
+    }
+  ],
+  "top": [
+    "Trump signs Russia sanctions bill authorizing 100% tariffs on energy buyers including India",
+    "US Appeals Court Blocks Trump Policy on Swift Deportations to Third Countries",
+    "At least 31 killed and over 100 injured in deadly attack at police complex in Pakistan",
+    "US, Denmark, and Greenland reach security deal for Arctic military expansion",
+    "Trump extends $100,000 H-1B visa fee for another year"
+  ]
+}
