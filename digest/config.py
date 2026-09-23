@@ -143,10 +143,21 @@ LLM_PRICING = {
 LLM_MAX_RETRIES = 2            # transient only; quota errors are not retried
 LLM_BACKOFF_SECONDS = 6         # 503s are load-related; waiting longer beats
                                 # retrying fast and spending the daily quota
-# Hard ceiling on API calls per pipeline run. Without it, a flaky afternoon can
-# burn every model's daily allowance before Stage 4 even starts — which is
-# exactly how one run produced a digest of zero stories.
-MAX_CALLS_PER_RUN = 40
+# Hard ceiling on HTTP attempts per pipeline run — a runaway guard, NOT a rate
+# limiter. It counts every ATTEMPT, including retries and failover hops, so one
+# logical call can consume up to (models in chain) x (retries + 1) attempts when
+# the free tier is returning 503s.
+#
+# It was set to 40 and became a binding constraint instead of a safety net: a
+# flaky run spent the whole allowance before synthesis and emailed "no major
+# stories" on a day when 17 stories qualified. A false negative is worse than no
+# guard at all, because it looks like a quiet news day rather than a bug.
+MAX_CALLS_PER_RUN = 150
+
+# Attempts held back so the last stage cannot be starved by earlier ones.
+# Synthesis is what the reader actually receives; losing it wastes every call
+# already spent.
+RESERVED_FOR_SYNTHESIS = 40
 LLM_REQUEST_SPACING = 4.0       # seconds between calls; retry logic absorbs 429s
 
 # Impact scoring sees title + lede only. Full article text costs ~5x more and

@@ -146,6 +146,7 @@ _PROVIDERS = {"gemini": _gemini, "anthropic": _anthropic}
 # Models whose daily quota ran out during this process.
 _exhausted = set()
 _call_count = [0]
+_in_final_stage = [False]
 
 
 def generate_structured(system, user, schema, *, provider=None, model=None,
@@ -163,7 +164,11 @@ def generate_structured(system, user, schema, *, provider=None, model=None,
     "retry" of a per-day 429 spends another request that cannot possibly work.
     """
     _load_env()
-    if _call_count[0] >= config.MAX_CALLS_PER_RUN:
+    limit = config.MAX_CALLS_PER_RUN
+    if not _in_final_stage[0]:
+        # Earlier stages may not spend the reserve; synthesis may.
+        limit -= config.RESERVED_FOR_SYNTHESIS
+    if _call_count[0] >= limit:
         raise LLMError(f"run call budget exhausted ({config.MAX_CALLS_PER_RUN}); "
                        f"refusing further requests so the remaining daily quota "
                        f"survives for the next run")
@@ -214,6 +219,12 @@ def call_count():
     return _call_count[0]
 
 
+def enter_final_stage():
+    """Release the reserved attempts for the last stage of the pipeline."""
+    _in_final_stage[0] = True
+
+
 def reset_counters():
     _exhausted.clear()
     _call_count[0] = 0
+    _in_final_stage[0] = False

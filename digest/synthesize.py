@@ -178,6 +178,7 @@ def synthesize_story(validated):
 
 
 def synthesize_all(validated_stories, verbose=True):
+    llm.enter_final_stage()      # unlock the attempts held back for this stage
     summaries, skipped, failures = [], [], []
     usage = {"input": 0, "output": 0, "api_calls": 0}
 
