@@ -4,9 +4,17 @@ name: digest
 on:
   schedule:
     # GitHub Actions cron is UTC. 07:00 IST = 01:30 UTC.
-    # Note: scheduled runs can be delayed by several minutes under platform
-    # load, so treat this as "shortly after 7", not "at 7:00:00".
-    - cron: "30 1 * * *"
+    #
+    # We fire at 23:47 UTC (05:17 IST) instead, deliberately early. Measured
+    # reality: a 01:30 schedule fired at 06:19 UTC, nearly five hours late.
+    # GitHub runs scheduled jobs on spare shared capacity and gives them no
+    # timing guarantee, with round-number minutes the most congested. Firing
+    # ~100 minutes early and on an odd minute absorbs a typical delay so the
+    # digest lands near 07:00 IST rather than mid-morning.
+    #
+    # If it must arrive at an exact time, GitHub Actions is the wrong scheduler
+    # and an always-on host with real cron is the answer.
+    - cron: "47 23 * * *"
   workflow_dispatch:
 
 concurrency:

@@ -9,7 +9,10 @@ name: collect
 
 on:
   schedule:
-    - cron: "30 */3 * * *"      # every 3 hours
+    # Minute 7, not 0 or 30. GitHub queues scheduled runs on shared capacity
+    # and the round-number minutes are the most congested, so they are the
+    # most likely to be delayed or skipped entirely.
+    - cron: "7 */3 * * *"
   workflow_dispatch:             # and a manual "run now" button
 
 concurrency:
