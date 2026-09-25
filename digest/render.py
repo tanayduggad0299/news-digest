@@ -44,7 +44,7 @@ def subject_line(stories, when=None):
 
 # ----------------------------------------------------------------- plain text --
 
-def render_text(stories, when=None):
+def render_text(stories, when=None, health=None):
     when = when or _today()
     lines = [f"MORNING DIGEST — {when.strftime('%A %d %B %Y')}", ""]
 
@@ -73,8 +73,11 @@ def render_text(stories, when=None):
                 srcs.append(f"   - {src['name']}: {src['url']}")
         lines += ["   SOURCES"] + srcs + ["", "-" * 58, ""]
 
-    lines += ["Assembled from The Hindu, News18 and Hindustan Times.",
-              "Only stories carried by two or more of them are included."]
+    lines += ["Assembled from three sources. Only stories carried by two or",
+              "more of them are included."]
+    if health:
+        lines += ["", "-" * 58, "PIPELINE HEALTH — this digest may be incomplete:"]
+        lines += [f"  - {h}" for h in health]
     return "\n".join(lines)
 
 
@@ -123,7 +126,7 @@ def _story_html(i, s):
     return "".join(parts)
 
 
-def render_html(stories, when=None):
+def render_html(stories, when=None, health=None):
     when = when or _today()
     header_date = when.strftime("%A, %d %B %Y")
 
@@ -139,6 +142,22 @@ def render_html(stories, when=None):
         two of the three sources and meaningful real-world impact to be included.
         Rather than pad the digest with less important news, we have sent nothing.
       </td></tr>'''
+
+    # A warning only appears when something is actually wrong. A banner that
+    # is always green teaches you to stop reading it.
+    health_block = ""
+    if health:
+        items = "".join(f"<li style=\"margin-bottom:4px;\">{escape(h)}</li>"
+                        for h in health)
+        health_block = f'''<tr><td style="padding:4px 34px 0 34px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="background:#fdf3f1;border:1px solid #c0503c;">
+          <tr><td style="padding:12px 14px;font:400 13px/20px {_FONT};color:#7d2f20;">
+            <strong style="display:block;margin-bottom:5px;">
+              This digest may be incomplete</strong>
+            <ul style="margin:0;padding-left:18px;">{items}</ul>
+          </td></tr>
+        </table></td></tr>'''
 
     return f'''<!DOCTYPE html>
 <html lang="en"><head>
@@ -169,6 +188,7 @@ def render_html(stories, when=None):
        {body}
      </table>
    </td></tr>
+   {health_block}
    <tr><td style="padding:6px 34px 30px 34px;font:400 12px/19px {_FONT};color:#9a9a9a;">
      Assembled from The Hindu, News18 and Hindustan Times. Only stories carried by
      two or more of them are included, and facts reported by a single source are
@@ -180,6 +200,9 @@ def render_html(stories, when=None):
 </body></html>'''
 
 
-def render(stories, when=None):
+def render(stories, when=None, health=None):
+    """health: a list of breach/drift strings, or None when the run was clean."""
     when = when or _today()
-    return subject_line(stories, when), render_html(stories, when), render_text(stories, when)
+    return (subject_line(stories, when),
+            render_html(stories, when, health),
+            render_text(stories, when, health))

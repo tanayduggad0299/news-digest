@@ -253,3 +253,46 @@ DIGEST_FROM = "Morning Digest <onboarding@resend.dev>"
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
+
+# ----------------------------------------------------- Evaluation bars --
+
+# The minimum clustering quality a change must preserve. evals/run_regression.py
+# exits non-zero when any bar is missed, so CI blocks the change rather than
+# letting quality drift in unnoticed.
+#
+# These are YOUR call, not a technical constant. Raise them to demand better,
+# lower them only with a reason you would say out loud. Run
+# `python evals/run_regression.py --sweep` to see what is actually achievable
+# before moving one.
+EVAL_BARS = {
+    "recall":    0.85,   # of the pairs that belong together, how many we find.
+                         # The one that matters most here: a missed merge splits
+                         # a story, and each half may then fail the two-source
+                         # gate and disappear from the digest entirely.
+    "precision": 0.85,   # of the pairs we merged, how many were right.
+    "f1":        0.88,   # the two together — stops one being traded for the other.
+}
+
+# ------------------------------------------------- Daily health bars --
+
+# Checked after every run. A breach means the digest you received is suspect,
+# even if it looked fine — so the email says so rather than staying quiet.
+#
+# THESE ARE YOUR CALL. The starting values come from observed runs (roughly
+# 300-450 articles, 3 sources, ~98% extraction, 24-41 eligible clusters,
+# 5 stories). Set them where YOU would want to be told something is wrong,
+# then tighten once you have a fortnight of history.
+HEALTH_BARS = {
+    "sources_present":       3,    # all three outlets contributed. The most
+                                   # important bar: losing one silently halves
+                                   # what can clear the two-source rule.
+    "articles_in_window":  150,    # enough of a day to work with
+    "extraction_rate":    0.80,    # fraction of fetched articles yielding text
+    "eligible_clusters":     8,    # stories with 2+ outlets, before scoring
+    "stories_delivered":     3,    # fewer than this is a thin morning
+    "unsupported_numbers":   0,    # figures in the digest not in the sources.
+                                   # Must stay zero; anything else is a fact
+                                   # the verification layer failed to catch.
+    "api_failures":          3,    # model calls lost after all retries
+    "models_exhausted":      4,    # of seven; more means tomorrow is at risk
+}

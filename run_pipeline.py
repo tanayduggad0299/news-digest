@@ -9,7 +9,7 @@ import json
 import sys
 
 from digest import (claims, cluster, config, deliver, eligibility, impact,
-                    llm, rank, render, synthesize, validate)
+                    llm, metrics, rank, render, store, synthesize, validate)
 
 
 def main(skip_collect=False):
@@ -81,8 +81,39 @@ def main(skip_collect=False):
                   f, indent=2, ensure_ascii=False)
     print("\nwrote data/digest_latest.json")
 
+    # ---- health metrics ------------------------------------------------
+    conn = store.connect()
+    window = store.ready_in_window(conn)
+    attempted = conn.execute(
+        "SELECT COUNT(*) n FROM articles WHERE extract_status IN ('ok','failed')"
+    ).fetchone()["n"]
+    ok_count = conn.execute(
+        "SELECT COUNT(*) n FROM articles WHERE extract_status='ok'").fetchone()["n"]
+    conn.close()
+
+    payload = {
+        "sources_present":     len({a["source"] for a in window}),
+        "articles_in_window":  len(window),
+        "extraction_rate":     round(ok_count / attempted, 3) if attempted else 0,
+        "clusters":            len(clusters),
+        "eligible_clusters":   len(elig),
+        "stories_scored":      len(scored),
+        "stories_delivered":   len(summaries),
+        "claims_published":    tot["published"],
+        "claims_withheld":     tot["withheld"],
+        "contradictions":      tot["contradictions"],
+        "unsupported_numbers": sum(len(s_["unsupported_numbers"]) for s_ in summaries),
+        "api_calls":           llm.call_count(),
+        "api_failures":        len(errors) + len(cfails) + len(sfails),
+        "refusals":            len(refusals),
+        "models_exhausted":    len(llm.exhausted_models()),
+    }
+    healthy, breaches, trends = metrics.record(payload)
+    print("\n=== health ===")
+    print(metrics.summarise(payload, breaches, trends))
+
     # ---- Stage 6: render + deliver -------------------------------------
-    subject, html, text = render.render(summaries)
+    subject, html, text = render.render(summaries, health=(breaches + trends))
     print("\n=== Stage 6: delivery ===")
     print(f"  subject: {subject}")
     try:
