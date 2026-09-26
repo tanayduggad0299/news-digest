@@ -188,7 +188,7 @@ def synthesize_story(validated):
 
 def synthesize_all(validated_stories, verbose=True):
     llm.enter_final_stage()      # unlock the attempts held back for this stage
-    summaries, skipped, failures = [], [], []
+    summaries, skipped, failures, used = [], [], [], []
     usage = {"input": 0, "output": 0, "api_calls": 0}
 
     for i, v in enumerate(validated_stories, 1):
@@ -218,6 +218,7 @@ def synthesize_all(validated_stories, verbose=True):
             continue
 
         summaries.append(summary)
+        used.append(v)      # keep the pairing: skipped stories break index alignment
         if verbose:
             flag = (f"  ** UNSUPPORTED NUMBERS: {summary['unsupported_numbers']}"
                     if summary["unsupported_numbers"] else "")
@@ -226,4 +227,5 @@ def synthesize_all(validated_stories, verbose=True):
     price = config.LLM_PRICING[config.LLM_PROVIDER]
     usage["cost_usd"] = round(usage["input"]/1e6*price["in"]
                               + usage["output"]/1e6*price["out"], 4)
+    usage["used"] = used
     return summaries, skipped, failures, usage

@@ -296,3 +296,27 @@ HEALTH_BARS = {
     "api_failures":          3,    # model calls lost after all retries
     "models_exhausted":      4,    # of seven; more means tomorrow is at risk
 }
+
+# ------------------------------------------------- Summary grading --
+
+# The grader must NOT be the model that wrote the summary. A model marking its
+# own work is consistently generous — identical blind spots on both sides.
+# Same-family is a weaker guarantee than a genuinely different vendor would be;
+# with Claude unfunded, a different Gemini model is the best available split,
+# and validate_judge.py is what keeps it honest.
+JUDGE_MODEL = "gemini-3.1-flash-lite"
+JUDGE_MAX_TOKENS = 4000
+
+# Minimum share of criteria where the grader must land within 1 point of the
+# human before its scores are used for anything. Below this, its numbers are
+# noise wearing a suit.
+JUDGE_AGREEMENT_BAR = 0.80
+
+# Quality bars from the grader, checked like any other health metric.
+# Seeded from the first validated run (means 3.8-4.8, lowest invention 1).
+# judge_unacceptable is the one that matters: target zero, always.
+HEALTH_BARS.update({
+    "judge_unacceptable":  0,      # LOWER_IS_BETTER — any is a bug to chase
+    "judge_min_invention": 3,      # the most serious criterion; below 3 is alarming
+    "judge_mean_quality":  4.0,    # overall direction
+})

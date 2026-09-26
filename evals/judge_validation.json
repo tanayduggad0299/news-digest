@@ -1,0 +1,119 @@
+{
+  "graded": [
+    {
+      "title": "India Extends AFSPA in Parts of Manipur, Nagaland, and Arunachal",
+      "criteria": {
+        "accuracy": 5,
+        "completeness": 3,
+        "invention": 5,
+        "contradiction_handling": 5,
+        "clarity": 5
+      },
+      "unacceptable": false,
+      "problems": [
+        {
+          "criterion": "completeness",
+          "quote": "The decision applies to designated districts and police station areas across the three states.",
+          "why": "The summary omits significant details regarding the specific scope of the AFSPA extension, such as the specific districts in Nagaland, the exclusion of Manipur valley police stations, and the affected areas in Arunachal Pradesh, which are crucial for understanding the impact of the extension."
+        }
+      ],
+      "mean": 4.6
+    },
+    {
+      "title": "Centre Appoints Mandeep K. Bhandari as New CBSE Chairperson",
+      "criteria": {
+        "accuracy": 5,
+        "completeness": 4,
+        "invention": 5,
+        "contradiction_handling": 5,
+        "clarity": 5
+      },
+      "unacceptable": false,
+      "problems": [
+        {
+          "criterion": "completeness",
+          "quote": "none",
+          "why": "The summary omits the removal of secretary Himanshu Gupta, which is linked to the same controversy and timeframe as the removal of Rahul Singh."
+        }
+      ],
+      "mean": 4.8
+    },
+    {
+      "title": "Protests and Legal Actions Target CEC Gyanesh Kumar Over Electoral Revision",
+      "criteria": {
+        "accuracy": 5,
+        "completeness": 3,
+        "invention": 1,
+        "contradiction_handling": 5,
+        "clarity": 5
+      },
+      "unacceptable": true,
+      "problems": [
+        {
+          "criterion": "completeness",
+          "quote": "none",
+          "why": "The summary fails to mention the reported dissents by Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi, which are significant context to the controversy surrounding the CEC."
+        },
+        {
+          "criterion": "invention",
+          "quote": "Cockroach Janata Party",
+          "why": "The organization 'Cockroach Janata Party' does not appear in the provided verified claims."
+        }
+      ],
+      "mean": 3.8
+    },
+    {
+      "title": "Uttarakhand Issued Heavy Rain Alerts as Authorities Go on High Alert",
+      "criteria": {
+        "accuracy": 4,
+        "completeness": 4,
+        "invention": 5,
+        "contradiction_handling": 5,
+        "clarity": 5
+      },
+      "unacceptable": false,
+      "problems": [
+        {
+          "criterion": "accuracy",
+          "quote": "issued red, orange, and yellow rain alerts",
+          "why": "The summary implies these alerts cover multiple districts simultaneously or generally, but omits the specific dates provided in the claims (Sept 26 and 27) which determine which districts are under which specific level of alert."
+        },
+        {
+          "criterion": "completeness",
+          "quote": "Heavy rain accompanied by thunderstorms is expected to continue through September 28",
+          "why": "The summary fails to mention the high-altitude snowfall expected at and above 4,000 meters, which was a specific detail provided in the claims."
+        }
+      ],
+      "mean": 4.6
+    },
+    {
+      "title": "NDA Allies Urge Election Commission to Clarify Electoral Revision Doubts",
+      "criteria": {
+        "accuracy": 5,
+        "completeness": 3,
+        "invention": 5,
+        "contradiction_handling": 5,
+        "clarity": 5
+      },
+      "unacceptable": false,
+      "problems": [
+        {
+          "criterion": "completeness",
+          "quote": "The request follows reports of internal dissent over the electoral revision process.",
+          "why": "The summary fails to mention the significant detail that 10 crore voters were reportedly removed, which provides critical context to the public confusion and the severity of the controversy."
+        }
+      ],
+      "mean": 4.6
+    }
+  ],
+  "within1": 21,
+  "n": 25,
+  "mean_gap": 0.36,
+  "human_flagged": [
+    2
+  ],
+  "judge_flagged": [
+    2
+  ],
+  "trustworthy": true
+}

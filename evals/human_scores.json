@@ -1,0 +1,17 @@
+[
+ {"story":0,"title":"India Extends AFSPA in Parts of Manipur, Nagaland, and Arunachal",
+  "criteria":{"accuracy":4,"completeness":4,"hallucination":3,"contradiction":5,"clarity":5},
+  "unacceptable":false},
+ {"story":1,"title":"Centre Appoints Mandeep K. Bhandari as New CBSE Chairperson",
+  "criteria":{"accuracy":4,"completeness":4,"hallucination":3,"contradiction":5,"clarity":5},
+  "unacceptable":false},
+ {"story":2,"title":"Protests and Legal Actions Target CEC Gyanesh Kumar Over Electoral Revision",
+  "criteria":{"accuracy":3,"completeness":3,"hallucination":2,"contradiction":2,"clarity":4},
+  "unacceptable":true},
+ {"story":3,"title":"Uttarakhand Issued Heavy Rain Alerts as Authorities Go on High Alert",
+  "criteria":{"accuracy":5,"completeness":4,"hallucination":5,"contradiction":5,"clarity":5},
+  "unacceptable":false},
+ {"story":4,"title":"NDA Allies Urge Election Commission to Clarify Electoral Revision Doubts",
+  "criteria":{"accuracy":4,"completeness":4,"hallucination":5,"contradiction":5,"clarity":5},
+  "unacceptable":false}
+]

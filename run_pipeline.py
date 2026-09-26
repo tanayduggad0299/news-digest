@@ -9,7 +9,8 @@ import json
 import sys
 
 from digest import (claims, cluster, config, deliver, eligibility, impact,
-                    llm, metrics, rank, render, store, synthesize, validate)
+                    judge, llm, metrics, rank, render, store, synthesize,
+                    validate)
 
 
 def main(skip_collect=False):
@@ -81,6 +82,38 @@ def main(skip_collect=False):
                   f, indent=2, ensure_ascii=False)
     print("\nwrote data/digest_latest.json")
 
+    # ---- grade the summaries -------------------------------------------
+    # Observability, never a gate: a grading failure must not stop a digest
+    # that is otherwise fine from being sent. The reader would rather have an
+    # ungraded digest than none.
+    graded, gfails, ugrade = [], [], {"calls": 0, "input": 0, "output": 0}
+    if summaries:
+        print(f"\n=== grading ({config.JUDGE_MODEL}) ===", flush=True)
+        try:
+            # u5["used"] is the validated story behind each summary, in order.
+            # Zipping `validated` directly would misalign whenever a thin story
+            # was skipped at synthesis.
+            evidence = [{"published_claims": v["published_claims"],
+                         "withheld_claims": v["withheld_claims"],
+                         "contradictions": v["validated_contradictions"]}
+                        for v in u5.get("used", [])]
+            graded, gfails, ugrade = judge.grade_all(summaries, evidence)
+        except Exception as exc:
+            print(f"  grading unavailable: {type(exc).__name__}: {str(exc)[:80]}")
+
+    quality = {}
+    if graded:
+        per = {c: [g["criteria"][c] for g in graded] for c in judge.CRITERIA}
+        quality = {
+            "judge_mean_quality": round(sum(g["mean"] for g in graded)/len(graded), 2),
+            "judge_min_invention": min(per["invention"]),
+            "judge_unacceptable": sum(1 for g in graded if g["unacceptable"]),
+            "judge_graded": len(graded),
+        }
+        print(f"\n  mean quality {quality['judge_mean_quality']} | "
+              f"lowest invention {quality['judge_min_invention']} | "
+              f"unacceptable {quality['judge_unacceptable']}")
+
     # ---- health metrics ------------------------------------------------
     conn = store.connect()
     window = store.ready_in_window(conn)
@@ -107,8 +140,17 @@ def main(skip_collect=False):
         "api_failures":        len(errors) + len(cfails) + len(sfails),
         "refusals":            len(refusals),
         "models_exhausted":    len(llm.exhausted_models()),
+        **quality,
     }
     healthy, breaches, trends = metrics.record(payload)
+    # A story the grader called unacceptable is named in the email, with the
+    # phrase that caused it, so the warning is actionable rather than a number.
+    for g in graded:
+        if g["unacceptable"]:
+            worst = judge.worst_problem(g)
+            detail = (f' — {worst["criterion"]}: "{worst["quote"][:60]}"'
+                      if worst else "")
+            breaches.append(f'story "{g["title"][:44]}" graded unacceptable{detail}')
     print("\n=== health ===")
     print(metrics.summarise(payload, breaches, trends))
 

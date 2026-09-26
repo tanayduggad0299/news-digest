@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS runs (
 # Which direction is bad, per metric. Everything here is "higher is better"
 # unless listed in LOWER_IS_BETTER.
 LOWER_IS_BETTER = {"unsupported_numbers", "api_failures", "refusals",
-                   "models_exhausted", "empty_feeds"}
+                   "models_exhausted", "empty_feeds", "judge_unacceptable"}
 
 
 def _conn():
