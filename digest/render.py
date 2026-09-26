@@ -59,6 +59,10 @@ def render_text(stories, when=None, health=None):
                  f"{'story' if len(stories) == 1 else 'stories'} · "
                  f"about {max(1, len(stories))} min read")
     lines.append("")
+    if health:
+        lines += ["!" * 58, "THIS DIGEST MAY BE INCOMPLETE:"]
+        lines += [f"  - {h}" for h in health]
+        lines += ["!" * 58, ""]
 
     for i, s in enumerate(stories, 1):
         lines += [f"{i}. {s['title']}", "",
@@ -75,9 +79,6 @@ def render_text(stories, when=None, health=None):
 
     lines += ["Assembled from three sources. Only stories carried by two or",
               "more of them are included."]
-    if health:
-        lines += ["", "-" * 58, "PIPELINE HEALTH — this digest may be incomplete:"]
-        lines += [f"  - {h}" for h in health]
     return "\n".join(lines)
 
 
@@ -149,7 +150,7 @@ def render_html(stories, when=None, health=None):
     if health:
         items = "".join(f"<li style=\"margin-bottom:4px;\">{escape(h)}</li>"
                         for h in health)
-        health_block = f'''<tr><td style="padding:4px 34px 0 34px;">
+        health_block = f'''<tr><td style="padding:0 34px 22px 34px;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
                style="background:#fdf3f1;border:1px solid #c0503c;">
           <tr><td style="padding:12px 14px;font:400 13px/20px {_FONT};color:#7d2f20;">
@@ -183,12 +184,12 @@ def render_html(stories, when=None, health=None):
        {count}</div>
      <div style="border-bottom:2px solid #111111;margin:20px 0 26px 0;"></div>
    </td></tr>
+   {health_block}
    <tr><td style="padding:0 34px;">
      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
        {body}
      </table>
    </td></tr>
-   {health_block}
    <tr><td style="padding:6px 34px 30px 34px;font:400 12px/19px {_FONT};color:#9a9a9a;">
      Assembled from The Hindu, News18 and Hindustan Times. Only stories carried by
      two or more of them are included, and facts reported by a single source are
