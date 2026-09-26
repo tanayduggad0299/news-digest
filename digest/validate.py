@@ -108,7 +108,32 @@ def validate_story(extracted):
                 "surface": len(versions) >= config.SURFACE_CONTRADICTION_MIN_SOURCES,
             })
 
+    # "What's next" goes through the SAME gate as every other claim. It used to
+    # travel straight from extraction into the digest, unchecked, which is how
+    # an invented organisation reached a delivered story: it carried no number,
+    # so the number-checker ignored it, and it was not in `claims`, so the
+    # corroboration rule never saw it.
+    nxt = extracted.get("whats_next_claim")
+    whats_next = None
+    if nxt:
+        supporters = _sources_for(nxt, valid_sources)
+        record = dict(nxt)
+        record["resolved_sources"] = sorted(supporters)
+        record["support_count"] = len(supporters)
+        if len(supporters) >= config.MIN_CLAIM_SOURCES:
+            whats_next = record
+        elif supporters and config.ATTRIBUTE_SINGLE_SOURCE:
+            record["single_source"] = True
+            record["needs_attribution"] = True
+            whats_next = record
+        else:
+            record["reason"] = (f"next-step claim with {len(supporters)}/"
+                                f"{n_sources} sources")
+            withheld.append(record)
+
     out = dict(extracted)
+    out["whats_next"] = whats_next["text"] if whats_next else None
+    out["whats_next_validated"] = whats_next
     out["published_claims"] = published
     out["withheld_claims"] = withheld
     out["validated_contradictions"] = contradictions

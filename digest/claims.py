@@ -51,8 +51,11 @@ Rules:
 - When sources give DIFFERENT values for the same underlying fact, do not pick
   one and do not average them. Record it in `contradictions` with each source's
   version, and leave it out of `claims`.
-- `whats_next` may only describe a future step the articles actually state.
-  Use null if no source says what happens next. Never speculate.
+- `whats_next` may only describe a future step the articles actually state, and
+  it needs the same source attribution as any other claim. Leave its text empty
+  if no source says what happens next. Never speculate.
+- `what_happened` is a neutral one-line description of the event. Use only names,
+  organisations and figures that appear in the articles.
 
 Extract every materially important fact. Omit colour, quotes that add no fact, \
 and background that does not help someone understand what happened."""
@@ -115,7 +118,15 @@ CLAIMS_SCHEMA = {
                 "required": ["topic", "versions"],
             },
         },
-        "whats_next": {"type": "string"},
+        "whats_next": {
+            "type": "object",
+            "properties": {
+                "text": {"type": "string",
+                         "description": "Empty string if no source states a next step."},
+                "supported_by": {"type": "array", "items": {"type": "string"}},
+            },
+            "required": ["text", "supported_by"],
+        },
     },
     "required": ["what_happened", "claims", "contradictions", "whats_next"],
 }
@@ -159,13 +170,22 @@ def extract_cluster(cluster):
         CLAIMS_SCHEMA,
         max_tokens=config.CLAIMS_MAX_TOKENS,
     )
-    nxt = (data.get("whats_next") or "").strip()
+    nxt = data.get("whats_next") or {}
+    text = (nxt.get("text") or "").strip()
     return {
         "cluster_id": cluster["cluster_id"],
         "what_happened": data["what_happened"],
         "claims": data.get("claims", []),
         "contradictions": data.get("contradictions", []),
-        "whats_next": nxt if nxt and nxt.lower() not in ("null", "none", "n/a") else None,
+        # Carried as a claim-shaped object so validate.py can apply the same
+        # corroboration rule. It used to be a bare string that bypassed
+        # validation entirely — which is how an invented party name reached a
+        # delivered digest without tripping a single guardrail.
+        "whats_next_claim": (
+            {"text": text, "supported_by": nxt.get("supported_by", []),
+             "claim_type": "descriptive", "significance": "major",
+             "is_essential": False}
+            if text and text.lower() not in ("null", "none", "n/a") else None),
     }, usage
 
 

@@ -85,7 +85,11 @@ SYNTH_SCHEMA = {
 
 def story_to_prompt(validated):
     """Render the claim list. This is the model's ENTIRE view of the story."""
-    lines = [f"CORE EVENT: {validated['what_happened']}", "", "VERIFIED CLAIMS:"]
+    # The core-event line is orientation only. It is NOT a verified claim, so
+    # the writer must not lift names or figures from it that the claim list
+    # does not also carry.
+    lines = [f"CORE EVENT (context only, not a source of facts): "
+             f"{validated['what_happened']}", "", "VERIFIED CLAIMS:"]
 
     for c in validated["published_claims"]:
         srcs = ", ".join(config.SOURCE_NAMES.get(s, s)
@@ -103,8 +107,13 @@ def story_to_prompt(validated):
                                  for v in c["versions"])
             lines.append(f"- {c['topic']}: {versions}")
 
-    if validated.get("whats_next"):
-        lines += ["", f"STATED NEXT STEP: {validated['whats_next']}"]
+    nxt = validated.get("whats_next_validated")
+    if nxt:
+        who = ", ".join(config.SOURCE_NAMES.get(s_, s_)
+                        for s_ in nxt.get("resolved_sources", []))
+        mark = (f"  [reported only by {who} — attribute it]"
+                if nxt.get("needs_attribution") else f"  [{who}]")
+        lines += ["", f"STATED NEXT STEP: {nxt['text']}{mark}"]
     else:
         lines += ["", "STATED NEXT STEP: none — leave whats_next empty."]
 
